@@ -1,0 +1,7 @@
+# Manifeste
+
+## Étique
+
+## Sobriété
+
+## Transparence 
