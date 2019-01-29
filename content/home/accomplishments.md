@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   title = "Neural Networks and Deep Learning"
   organization = "Coursera"
   certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  date_start = "Lundi 2 Janvier 2006"
   date_end = ""
   description = ""
 

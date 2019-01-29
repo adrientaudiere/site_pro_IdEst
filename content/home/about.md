@@ -10,9 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Statistiques",
+    "Infographie",
+    "Écologie",
+    "Logiciels libres",
   ]
 
 # List your qualifications (such as academic degrees).
@@ -33,8 +34,24 @@ weight = 5
  
 +++
 
-# Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+# Biographie
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Je suis un expert en analyse de données biologiques et en illustrations scientifiques,
+
+À travers mon entreprise *IdEst*, je propose des prestations de services adaptées à vos besoins.
+
+<!-- 
+La complexité du monde
+
+L'analyse de données complexes, depuis les méthodes statistiques jusqu'à la communication des conclusions, est aujourd'hui au centre .
+
+Mettre mes connaissances et mes compétences de chercheurs au service des entreprises.
+
+Rigoureux
+Enthousiaste
+"bricoleur"
+Curieux
+ -->
+
+

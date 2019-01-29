@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Crete-quicksand"
+
+# Optional Google font URL
+google_fonts = "Crete Round:200,300,400,700|Quicksand:200,300,400,700|Ubuntu Mono"
+
+# Font families
+heading_font = "Crete Round"
+body_font = "Quicksand"
+nav_font = "Quicksand"
+mono_font = "Ubuntu Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"
