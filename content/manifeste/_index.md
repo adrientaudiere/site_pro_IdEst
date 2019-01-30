@@ -1,7 +1,9 @@
 # Manifeste
 
-## Étique
+## Éthique
 
 ## Sobriété
 
 ## Transparence 
+
+eiui 

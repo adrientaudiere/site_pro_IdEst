@@ -185,10 +185,13 @@ enableGitInfo = false
     [privacy.youtube]
       disable = true
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  custom_css = ["override.css"]
-  custom_js  = []
+  # Load CSS and JS plugins
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+
+  plugins_css = ["custom"]
+  plugins_js  = []
+
 
   # Publication types.
   #   Used to categorize publications.
@@ -206,7 +209,7 @@ enableGitInfo = false
     'Book',  # 5
     'Book section'  # 6
   ]
-
+  
   # Configuration of talk pages.
   [params.talks]
     # Show talk time?

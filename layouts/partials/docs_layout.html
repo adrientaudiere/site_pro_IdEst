@@ -3,7 +3,7 @@
 {{ $current_page := . }}
 
 <div class="container-fluid docs">
-  <div class="row flex-xl-nowrap">
+  <div class="row flex-xl-wrap">
 {{/*      <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
       {{ partial "docs_sidebar.html" . }}
     </div> 
@@ -11,10 +11,10 @@
 
     {{ if .Params.toc }}
     <div class="d-none d-xl-block col-xl-3 docs-toc">
-      {{ with (i18n "on_this_page") }}
+{{/*  {{ with (i18n "on_this_page") }}
       <p class="docs-toc-title">{{.}}</p>
       {{ end }}
-
+*/}}
       {{ .TableOfContents }}
 
       <ul class="nav toc-top">
@@ -25,7 +25,7 @@
     </div>
     {{ end }}
 
-    <main class="col-12 col-md-9 col-xl-8 pl-md-5 docs-content" role="main">
+    <main class="col-12 col-md-9 col-xl-8 pl-md-6 docs-content" role="main">
 
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
