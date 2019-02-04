@@ -17,7 +17,11 @@
   {{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
   {{ if in (slice "hero" "hero_carousel") $page.Params.widget }}
     {{ partial $widget $params }}
+    
+  {{ else if in (slice "cards") $page.Params.widget }}
+    {{ partial "cards_widget.html" . }}
   {{ else }}
+
   <section id="{{ $page.File.TranslationBaseName }}" class="home-section">
     <div class="container">
       {{ partial $widget $params }}

@@ -190,7 +190,7 @@ enableGitInfo = false
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 
   plugins_css = ["custom"]
-  plugins_js  = []
+  plugins_js  = [""]
 
 
   # Publication types.
@@ -330,9 +330,10 @@ enableGitInfo = false
   url = "#projects"
   weight = 4
 
+
 [[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
+  name = "Cards"
+  url = "/cards/"
   weight = 5
 
 [[menu.main]]
