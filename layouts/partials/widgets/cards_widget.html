@@ -1,0 +1,17 @@
+{{ $ := .root }} 
+{{ $page := .page }}  
+
+<div class="container-fluid">
+  <div class="card-deck text-center">
+    {{ range where $.Pages "Params.widget_compo" "TRUE" }} 
+    <div class="card col-xs-12 col-sm-6 col-lg-4">
+      <a class="mini" style=" position: absolute; top: 4px; right: 4px;" href={{ .Params.link_url }}> <img src="/img/mini/ext-link-orange.svg"
+          alt="Link"> </a>
+      <img src={{ .Params.img_url }} class="card-img" alt="Card image"> 
+      <div class="content">
+        {{ .Content | markdownify }}
+      </div>
+    </div>
+    {{end}}
+  </div>
+</div>

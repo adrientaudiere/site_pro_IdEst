@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{/*  EN COURS  */}}
+<div class="container-fluid">
+  <div class="card-deck text-center">
+    {{ range .Pages }}
+
+    <div class="card col-xs-12 col-sm-6 col-lg-4">
+        <img src= {{ .Params.img_url }} class="card-img" alt="Card image cap">
+      <div class="content">
+        {{ .Content | markdownify }}
+      </div>
+
+    </div>
+    {{end}}
+  </div>
+</div>
+
+
+{{ partial "footer_section.html" . }}

@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+{{ $current_page := . }}
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-wrap">
+    {{ if .Params.toc }}
+    <div class="d-none d-xl-block col-xl-4 docs-toc">
+
+      <form class="docs-search d-flex align-items-center">
+        <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav"
+          aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        {{ if eq $.Site.Params.search.engine 1 }}
+        <input name="q" type="search" class="form-control" id="search-query" placeholder="{{ i18n "search_placeholder" }}"
+          autocomplete="off">
+        {{ end }}
+      </form>
+      {{/* {{ .TableOfContents }} */}}
+      {{- partial "toc.html" . -}} {{/* Use a custom toc.html partial from https://github.com/gohugoio/hugo/issues/1778
+      */}}
+
+      {{/* {{ partial "docs_toc_foot.html" . }} */}}
+    </div>
+    {{ end }}
+    
+    <main class="col-12 col-md-9 col-xl-8 pl-md-6 docs-content favoris" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">{{ .Title }}</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            {{ .Content }}
+          </div>
+
+          {{ partial "tags.html" . }}
+        </div>
+      </article>
+    </main>
+  </div>
+</div>
+
+
+{{ partial "footer_section.html" . }}
+
+{{ partial "footer.html" . }}

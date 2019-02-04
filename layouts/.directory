@@ -1,0 +1,9 @@
+[Dolphin]
+PreviewsShown=true
+Timestamp=2019,1,31,12,3,53
+Version=4
+ViewMode=1
+VisibleRoles=Details_text,Details_size,Details_modificationtime,Details_type,CustomizedDetails
+
+[Settings]
+HiddenFilesShown=true
