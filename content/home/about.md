@@ -23,7 +23,7 @@ interests = ["Statistiques", "Infographie", "Écologie", "Logiciels libres"]
 
 Je suis un expert en analyse de données biologiques et en illustrations scientifiques,
 
-À travers mon entreprise _IdEst_, je propose des prestations de services adaptées à vos besoins.
+À travers mon entreprise _IdEst_, je propose des prestations de services adaptées à vos besoins. 
 
 <!--
 La complexité du monde
