@@ -90,8 +90,8 @@
     text-align: center;
 }
 
-.card {
-    margin-top: 25px;
+.home-section {
+    padding: 60px 0 60px 0; /* default academic.css:  110px 0 110px 0; */
 }
 
 .card-img {

@@ -5,8 +5,9 @@ widget_compo = "TRUE"
 active = true
 
 img_url = "/img/icon.png"
-weight = 1
 link_url = "#about"
+weight = 1
+weight_cards = 5
 +++
 
 # Je suis un :
