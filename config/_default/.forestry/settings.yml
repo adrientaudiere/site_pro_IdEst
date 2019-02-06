@@ -1,7 +1,11 @@
 ---
 new_page_extension: md
 auto_deploy: true
+<<<<<<< HEAD
 admin_path: 
+=======
+admin_path: ''
+>>>>>>> ae2ca5ee0a2abffb2e2fe632c7dad13e42c98099
 webhook_url: 
 sections:
 - type: directory
