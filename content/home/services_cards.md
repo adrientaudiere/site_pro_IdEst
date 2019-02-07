@@ -5,7 +5,7 @@ active = false #  When active = false only use the widget_compo. If true add **a
 
 
 link_url = "/services"
-img_url = "/img/volcan.jpg"
+img_url = "/img/volcan.webp"
 img_link = "/img/mini/ext-link-orange.svg"
 weight = 1
 weight_cards = 3
