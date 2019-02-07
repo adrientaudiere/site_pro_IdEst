@@ -15,7 +15,7 @@ math = true
 +++
 
 
-* [Search by image and find where that image appears online](https://tineye.com/)
+
 * [Privacy Tools](https://www.privacytools.io/#top)
 * [Pour un développement logiciel plus durable et plus responsable](https://www.greencodelab.org/)
 * [Mesurer la performance écologique d'un site internet](http://www.ecometer.org/)
@@ -130,10 +130,10 @@ _____________________________________________________________________
 ## Musiques, images et données
 _____________________________________________________________________
 
-* [Yeggi : Search Engine for 3D printable Model](https://www.yeggi.com/)
 * [Europeana Collections](http://www.europeana.eu/portal/fr)
 * [The conversation](https://theconversation.com/fr)
 * [Médéric TABART](http://mederic.tabart.free.fr/flamenco.html)
+
 
 ### Musique (et son) en ligne
 * [Jamendo - Les radios de musique libre](https://www.jamendo.com/fr/radios)
@@ -150,6 +150,7 @@ _____________________________________________________________________
 * [Flickr](https://www.flickr.com/search/?license=2%2C3%2C4%2C5%2C6%2C9&advanced=1&text=)
 * [search creative commons](https://search.creativecommons.org/)
 
+  
 #### Photos CCO
 * [Pixabay](https://pixabay.com/fr/)
 * [Every stock photos](http://www.everystockphoto.com/)
@@ -164,6 +165,11 @@ _____________________________________________________________________
 * [Browsing deviantART](http://www.deviantart.com/?q=inkscape)
 * [Clipart - High Quality, Easy to Use, Free Support](https://openclipart.org/)
 * [SVG SILH](https://svgsilh.com/fr/)
+
+### Divers images
+* [Yeggi : Search Engine for 3D printable Model](https://www.yeggi.com/)
+* [Search by image and find where that image appears online](https://tineye.com/)
+
 
 ### Données libres
 * [open DOAR](http://v2.sherpa.ac.uk/opendoar/)
