@@ -4,110 +4,141 @@
   font-size: 75%;
 }
 
-.favoris li{
-    list-style: none;
-    margin-right: 10px;
- }
-
- .favoris ul, hr, h1, h2, h3, h4{
-    margin: 2px;
- }
-   
- .favoris h2{
-    text-align: center;
-    color: #2e7891;
-    font-size: 130%;
-    font-weight: bold;
+.favoris li {
+  list-style: none;
+  margin-right: 10px;
 }
 
+.favoris ul,
+hr,
+h1,
+h2,
+h3,
+h4 {
+  margin: 2px;
+}
 
- .favoris h3 {
-    display: flex;
-    flex-direction: row;
-    color: #2e7891;
-    font-size: 110%;
-    padding-left: 20px;
-  }
-  .favoris h3:after{
-    content: "";
-    flex: 1 1;
-    border-bottom: 0.5px solid #2e7891C0;
-    margin: auto auto auto 5px;
-  }
+.favoris h2 {
+  text-align: center;
+  color: #2e7891;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.favoris h3 {
+  display: flex;
+  flex-direction: row;
+  color: #2e7891;
+  font-size: 110%;
+  padding-left: 20px;
+}
+
+.favoris h3:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 0.5px solid #2e7891C0;
+  margin: auto auto auto 5px;
+}
 
 .favoris h4 {
-    font-size: 100%;
-    font-weight: 200;
-    padding-left: 35px;
-    color: #2e7891e8;
+  font-size: 100%;
+  font-weight: 200;
+  padding-left: 35px;
+  color: #2e7891e8;
 }
 
-.docs-toc{
-  scrollbar-color: rgba(46, 120, 145, 0.568) rgba(46, 120, 145, 1) ; 
+.docs-toc {
+  scrollbar-color: rgba(46, 120, 145, 0.568) rgba(46, 120, 145, 1);
   scrollbar-width: thin;
 }
 
-.favoris li:before{
-    content: '';
-    display: inline-block;
-    height: 8px;
-    width: 8px;
-    margin-right: 10px;
-    margin-bottom: 2px;
-    background-image: url(/img/logo/logo_fleche2.svg);
-    background-size:     cover;
- }
+.favoris li:before {
+  content: '';
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  background-image: url(/img/logo/logo_fleche2.svg);
+  background-size: cover;
+}
 
 /* class toc = la table des matières */
 .toc li {
-    list-style: none;
-    font-weight: bold;
+  list-style: none;
+  font-weight: bold;
 }
 
-.toc li li{
-    font-size: 90%;
+.toc li li {
+  font-size: 90%;
 }
 
 .toc li li li {
-    font-weight: normal;
-    font-size: 80%;
+  font-weight: normal;
+  font-size: 80%;
 }
 
-.toc li li li li{
-    font-style: italic;
+.toc li li li li {
+  font-style: italic;
 }
 
 .docs-search {
-    margin-top: -25px;
-  }
+  margin-top: -25px;
+}
 
-  .docs-content {
-    order: 3;
-    position: relative;
-  }
-  
-.site-footer{
-    text-align: center;
+.docs-content {
+  order: 3;
+  position: relative;
+}
+
+.site-footer {
+  text-align: center;
 }
 
 .home-section {
-    padding: 60px 0 60px 0; /* default academic.css:  110px 0 110px 0; */
+    padding: 20px 0 20px 0; 
+  /* default academic.css:  110px 0 110px 0; */
 }
 
 .card-img {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    display: block;
-    margin: 5px auto auto auto;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 5px auto auto auto;
 }
 
+.card-deck, .card {
+  text-align: left;
+}
 
-/* mini correspond au des mini-logo */
+.card-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.card-title {
+  text-align: center;
+  font-variant-caps: all-small-caps ; 
+  font-weight: bold;
+}
+
+.container{
+    padding: 0;
+}
+
+.card-text ul {
+  list-style-image: url(/img/logo/logo_fleche2.svg);
+  font-size: 88%;
+  padding-left:8px;
+  padding-right:8px;
+}
+
+/* mini correspond à des mini-logo */
 .mini img {
-    width: 20px;
+  width: 20px;
 }
 
 .mini img:hover {
-    width: 25px;
+  width: 25px;
 }

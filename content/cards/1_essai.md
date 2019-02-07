@@ -5,7 +5,7 @@ template = "cards"
 
 active = true
 
-img_url = "/img/icon.png"
+img_url = "/img/mini/icon.png"
 +++
 
 # Adrien Taudière

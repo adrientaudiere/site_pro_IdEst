@@ -59,7 +59,7 @@ enableGitInfo = false
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "IdEst", url = "https://adrien.taudiere.com/" } ]
 
-  avatar = "photo_profil_BD.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "profil_circle.webp"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "idest@zaclys.net"

@@ -4,7 +4,7 @@ widget = "cards_widget"
 active = true
 numcards = "cards_2"
 
-img_url = "/img/icon.png"
+img_url = "/img/mini/icon.png"
 
 link_url = "#about"
 +++
