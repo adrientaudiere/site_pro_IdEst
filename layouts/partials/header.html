@@ -178,7 +178,7 @@
   {{ end }}
 
   <!-- Custom stylesheet - for your changes -->
-<link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ "css/custom.css" | relURL}}">
 
   {{ partial "cookie_consent" . }}
   {{ partial "head_custom" . }}
