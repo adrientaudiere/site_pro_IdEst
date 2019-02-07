@@ -8,3 +8,7 @@ cd ../../
 
 # Update Academic.
 git submodule update --remote --merge
+
+
+# If I change (by error) theme folder
+git submodule update --remote --force
