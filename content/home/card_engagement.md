@@ -1,5 +1,5 @@
 +++
-title = "Objectif de travail"
+title = "Éthique de travail"
 widget_compo = "TRUE" # When widget_compo = true : add to the card in homepage
 active = false #  When active = false only use the widget_compo. If true add **also** a presentation section using default layout.
 
@@ -11,11 +11,11 @@ weight = 1
 weight_cards = 8
 +++
 
- 
-* La transparence
-* La sobriété
 
+* **Sobriété** <span style="font-size: 90%;">(écologique & statistique)</span>
+* **Partage** <span style="font-size: 90%;">(codes & connaissances)</span>
+* **Rigueur** et **créativité**
 
   
 ---
-  <small class="text-muted">En savoir plus sur mes engagements et mon éthique de travail.</small>
+En savoir plus sur <a href="/engagements">mes engagements</a>.

@@ -1,6 +1,5 @@
 +++
 active = true
-date = "2017-10-15T00:00:00.000+00:00"
 height = "340px"
 interval = 10000
 weight = 1
@@ -36,11 +35,11 @@ content = "R - logiciels libres"
 overlay_color = "#333"
 overlay_filter = 0.5
 overlay_img = "hero_bg/nuage_iceberg.webp"
-title = "Formation"
+title = "Formations"
 
 [[item]]
 align = "center"
-content = "Voir …"
+content = ""
 overlay_color = "#333"
 overlay_filter = 0.5
 overlay_img = "hero_bg/volcan_bandeau.webp"

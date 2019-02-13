@@ -124,16 +124,22 @@ h4 {
 }
 
 .container{
-    padding: 0;
+  padding: 0;
 }
 
 .card-text ul {
   list-style-image: url(/img/logo/logo_fleche2.svg);
-  font-size: 88%;
+  font-size: 90%;
   padding-left:8px;
   padding-right:8px;
+
 }
 
+.card-deck{
+  flex-flow:column wrap;
+}
+
+  
 /* mini correspond à des mini-logo */
 .mini img {
   width: 20px;
@@ -142,3 +148,39 @@ h4 {
 .mini img:hover {
   width: 25px;
 }
+
+#hero_carousel {
+  margin-bottom: 40px;
+}
+
+
+
+
+/* Navbar customization */
+
+.nav-link {
+  color: #fff;
+  border-left:5px solid rgba(0,0,0,0);
+  text-decoration:none;
+  border-radius: 50%;
+}
+
+.nav-link:hover{
+  border-left:5px solid #fff;
+}
+
+
+.dropdown-item a {
+  color: #fff;
+  padding-left:0px;
+  text-decoration:none;
+  -webkit-transition: border .5s ease-in;
+  -moz-transition: border .5s ease-in;
+  -o-transition: all .5s ease-in;
+  transition: border .5s ease-in;
+}
+
+.dropdown-item a:hover{
+  border-right:20px solid #fff;
+}
+

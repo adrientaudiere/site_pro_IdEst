@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "Bioptipoux"
+title = "AFNP"
 
 # Date this page was created.
 date = 2019-02-13
 
 # Project summary to display on homepage.
-summary = "Illustrations scientifiques et conseil en statistiques"
+summary = "Questionnaire en ligne et analyse des résultats"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Recherche public", "Illustration", "Biostatistiques"]
+tags = ["Association", "Analyses automatisées", "Biostatistiques", "Questionnaire en ligne"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "http://example.org"
@@ -27,7 +27,7 @@ tags = ["Recherche public", "Illustration", "Biostatistiques"]
 +++
 
 
-## 
+Projet en collaboration avec l'<abbr title="Association Française contre les Neuropathies Périphériques">AFNP</abbr>.
 
 
 
