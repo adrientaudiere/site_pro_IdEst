@@ -3,7 +3,7 @@
 # This widget displays publications from `content/publication/` which have
 # `selected = true` in their `+++` front matter.
 widget = "publications_selected"
-active = false
+active = true
 
 
 title = "Selected Publications"
@@ -32,3 +32,5 @@ list_format = 1
 publication_type = "-1"
 +++
 
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fadrientaudiere.github.io%2FReferences%2FMyPubs.bib&theme=simple&folding=1&jsonp=1"></script> 
