@@ -1,7 +1,63 @@
+/* Color for links and image's links*/
+a {
+  color: #c93312;
+  /*  #003f5f */
+}
+
+a i {
+  color: #2e7891;
+}
+
+nav a i {
+  color: #faefd1;
+}
+
+/* Image for Lists  */
+.container li {
+  list-style: none;
+  margin-left: -14px;
+}
+
+/*   background-image: url(/img/logo/logo_fleche2.svg); */
+.container li:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #2e7891;
+  margin-right: 5px;
+}
+
+.network-icon li{
+  margin-left: 1px;
+}
+
+.network-icon li:before {
+  content: none;
+}
+
+#navbar li:before {
+  content: none;
+}
+
+li li:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  color: #2e7891;
+  margin-right: 5px;
+}
+
+
 /* Style pour la page des favoris (favoris_layout) */
 /* class favoris = la liste des favoris */
 .favoris {
   font-size: 75%;
+}
+
+.toc a {
+  color: #2e7891;
+}
+
+.favoris a {
+  color: #2e7891;
 }
 
 .favoris li {
@@ -16,6 +72,7 @@ h2,
 h3,
 h4 {
   margin: 2px;
+  color: #2e7891;
 }
 
 .favoris h2 {
@@ -52,17 +109,6 @@ h4 {
   scrollbar-width: thin;
 }
 
-.favoris li:before {
-  content: '';
-  display: inline-block;
-  height: 8px;
-  width: 8px;
-  margin-right: 10px;
-  margin-bottom: 2px;
-  background-image: url(/img/logo/logo_fleche2.svg);
-  background-size: cover;
-}
-
 /* class toc = la table des matières */
 .toc li {
   list-style: none;
@@ -96,7 +142,7 @@ h4 {
 }
 
 .home-section {
-    padding: 20px 0 20px 0; 
+  padding: 20px 0 20px 0;
   /* default academic.css:  110px 0 110px 0; */
 }
 
@@ -108,38 +154,39 @@ h4 {
   margin: 5px auto auto auto;
 }
 
-.card-deck, .card {
+.card-deck,
+.card {
   text-align: left;
 }
 
 .card-body {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .card-title {
   text-align: center;
-  font-variant-caps: all-small-caps ; 
+  font-variant-caps: all-small-caps;
   font-weight: bold;
 }
 
-.container{
+.container {
   padding: 0;
 }
 
 .card-text ul {
   list-style-image: url(/img/logo/logo_fleche2.svg);
   font-size: 90%;
-  padding-left:8px;
-  padding-right:8px;
+  padding-left: 8px;
+  padding-right: 8px;
 
 }
 
-.card-deck{
-  flex-flow:column wrap;
+.card-deck {
+  flex-flow: column wrap;
 }
 
-  
+
 /* mini correspond à des mini-logo */
 .mini img {
   width: 20px;
@@ -160,27 +207,95 @@ h4 {
 
 .nav-link {
   color: #fff;
-  border-left:5px solid rgba(0,0,0,0);
-  text-decoration:none;
+  border-left: 5px solid rgba(0, 0, 0, 0);
+  text-decoration: none;
   border-radius: 50%;
 }
 
-.nav-link:hover{
-  border-left:5px solid #fff;
+.nav-link:hover {
+  border-left: 5px solid #fff;
 }
 
 
 .dropdown-item a {
   color: #fff;
-  padding-left:0px;
-  text-decoration:none;
+  padding-left: 0px;
+  text-decoration: none;
   -webkit-transition: border .5s ease-in;
   -moz-transition: border .5s ease-in;
   -o-transition: all .5s ease-in;
   transition: border .5s ease-in;
 }
 
-.dropdown-item a:hover{
-  border-right:20px solid #fff;
+.dropdown-item a:hover {
+  border-right: 20px solid #fff;
 }
 
+
+.manifeste h1 {
+  vertical-align: middle;
+}
+
+
+h1 {
+  font-size: 180%;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+}
+
+h2:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 5px solid #2e789180;
+  margin: auto auto auto 2%;
+}
+
+h2 {
+  color: #2e7891;
+  font-size: 115%;
+}
+
+h3 {
+  color: #2e7891;
+  font-size: 105%;
+  font-weight: normal;
+  font-style: italic;
+  padding: 5px;
+}
+
+
+@media (min-width: 1080px) {
+  .manifeste {
+    column-count: 3;
+    margin: 5%;
+    column-rule: 3px solid #2e789180;
+  }
+}
+
+@media (min-width: 768px) {
+  .manifeste {
+    column-count: 2;
+    margin: 5%;
+    column-rule: 3px solid #2e789180;
+  }
+}
+
+@media (max-width: 768) {
+  .manifeste {
+    column-count: 1;
+    margin: 5%;
+  }
+}
+
+p {
+  text-indent: 3%;
+  text-align: justify;
+}
+
+.hero-lead {
+  text-indent: 0%;
+  text-align: center;
+}

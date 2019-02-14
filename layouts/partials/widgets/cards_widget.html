@@ -1,7 +1,7 @@
 {{ $ := .root }}
 {{ $page := .page }}
 
-
+<div class="container">
   <div class="card-deck">
     <div class="row">
       {{ range (where $.Pages "Params.widget_compo" "TRUE").ByParam "weight_cards" }}
@@ -21,3 +21,4 @@
       {{end}}
     </div>
   </div>
+</div>

@@ -19,9 +19,7 @@
     {{ partial $widget $params }}    
   {{ else }}
   <section id="{{ $page.File.TranslationBaseName }}" class="home-section">
-    <div class="container">
       {{ partial $widget $params }}
-    </div>
   </section>
   {{ end }}
 {{ end }}

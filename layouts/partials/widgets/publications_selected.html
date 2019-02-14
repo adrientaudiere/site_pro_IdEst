@@ -2,6 +2,7 @@
 {{ $page := .page }}
 
 <!-- Selected Publications widget -->
+<div class="container">
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
@@ -32,4 +33,5 @@
     {{ end }}
 
   </div>
+</div>
 </div>

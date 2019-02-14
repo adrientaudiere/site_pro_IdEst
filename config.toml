@@ -342,6 +342,13 @@ enableGitInfo = false
   weight = 10
 
 [[menu.main]]
+  name = "Société"
+  parent = "Acceuil"
+  identifier = "Société"
+  url = "#societe"
+  weight = 11
+
+[[menu.main]]
   name = "Compétences"
   parent = "Acceuil"
   identifier = "competences"
@@ -355,6 +362,8 @@ enableGitInfo = false
   url = "#formation"
   weight = 40
 
+
+
 [[menu.main]]
   name = "Contact"
   parent = "Acceuil"
@@ -365,13 +374,34 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Offres"
-  url = "/offres/"
+  url = "/"
   weight = 2
+  identifier = "Offres"
+  hasChildren = true
+
+[[menu.main]]
+  name = "Offres de services"
+  parent = "Offres"
+  identifier = "offres_services"
+  url = "/offres/#offres"
+  weight = 10
+
+[[menu.main]]
+  name = "Tarifs"
+  parent = "Offres"
+  identifier = "Tarifs"
+  url = "/offres/#tarifs"
+  weight = 30
 
 [[menu.main]]
   name = "Manifeste"
   url = "/manifeste/"
   weight = 3
+
+  [[menu.main]]
+  name = ""
+  url = "/manifeste/"
+  weight = 4
 
 # [[menu.main]]
 #   name = "Favoris"

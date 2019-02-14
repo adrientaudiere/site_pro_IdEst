@@ -2,6 +2,7 @@
 {{ $page := .page }}
 
 <!-- About widget -->
+<div class="container">
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
   <div class="col-12 col-lg-4">
     <div id="profile">
@@ -13,7 +14,7 @@
       {{ end }}
 
       <div class="portrait-title">
-        <h2 itemprop="name">{{ $.Site.Params.name }}</h2>
+        <h1 itemprop="name">{{ $.Site.Params.name }}</h1>
         {{ with $.Site.Params.role }}<h3 itemprop="jobTitle">{{ . }}</h3>{{ end }}
 
         {{/* Support legacy `organization` option. */}}
@@ -64,4 +65,5 @@
   <div class="col-12 col-lg-8" itemprop="description">
     {{ $page.Content | markdownify }}
   </div>
+</div>
 </div>

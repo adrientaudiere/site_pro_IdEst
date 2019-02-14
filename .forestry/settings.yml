@@ -35,11 +35,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/cards
-  label: Cards
-  create: all
-  match: "**/*"
-- type: directory
   path: content/slides
   label: Slides
   create: all
@@ -54,11 +49,6 @@ sections:
   label: Favoris
   create: all
   match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: static/img
 public_path: "/uploads"
 front_matter_path: ''
