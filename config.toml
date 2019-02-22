@@ -168,7 +168,7 @@ enableGitInfo = false
   # Privacy pack
   #   Show a cookie consent message to visitors
   #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = true
+  privacy_pack = false
 
  # Disable All Services
   [privacy]
@@ -190,7 +190,7 @@ enableGitInfo = false
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 
   plugins_css = ["custom"]
-  plugins_js  = [""]
+  plugins_js  = ["custom.js"]
 
 
   # Publication types.
@@ -295,6 +295,11 @@ enableGitInfo = false
     icon_pack = "ai"
     link = "https://depsy.org/person/332218"
 
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=author%3AAdrien+Taudi%C3%A8re&btnG=&oq="
+
   # Link to a PDF of your resume/CV from the About widget.
 
   [[params.social]]
@@ -320,6 +325,8 @@ enableGitInfo = false
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
+
+# ACCEUIL
 [[menu.main]]
   name = "Acceuil"
   url = "/"
@@ -328,10 +335,10 @@ enableGitInfo = false
   hasChildren = true
 
 [[menu.main]]
-    name = "Résumé"
-    parent = "Acceuil"
-    identifier = "resume"
-    url = "#card_quisuisje"
+  name = "Résumé"
+  parent = "Acceuil"
+  identifier = "resume"
+  url = "#card_quisuisje"
   weight = 1
 
 [[menu.main]]
@@ -356,13 +363,11 @@ enableGitInfo = false
   weight = 30
 
 [[menu.main]]
-  name = "Formation"
+  name = "Projets en cours"
   parent = "Acceuil"
-  identifier = "formation"
-  url = "#formation"
+  identifier = "Projets en cours"
+  url = "#projects"
   weight = 40
-
-
 
 [[menu.main]]
   name = "Contact"
@@ -372,41 +377,83 @@ enableGitInfo = false
   weight = 60
 
 
+#cv
+[[menu.main]]
+  name = "CV"
+  url = "/cv"
+  weight = 2
+  identifier = "CV"
+  hasChildren = true
+
+[[menu.main]]
+  name = "Formation initiale"
+  parent = "CV"
+  identifier = "Formation"
+  url = "/cv/#formation"
+  weight = 1
+
+[[menu.main]]
+  name = "Communications orales"
+  parent = "CV"
+  identifier = "communications"
+  url = "/cv/#communications"
+  weight = 3
+
+
+[[menu.main]]
+  name = "Publications nationales"
+  parent = "CV"
+  identifier = "Publication_nat"
+  url = "/cv/#publication_nat"
+  weight = 5
+
+[[menu.main]]
+  name = "Publications internationales"
+  parent = "CV"
+  identifier = "Publication_inter"
+  url = "/cv/#publication_inter"
+  weight = 8
+
+# OFFRES
 [[menu.main]]
   name = "Offres"
-  url = "/"
-  weight = 2
+  url = "/Offres"
+  weight = 3
   identifier = "Offres"
   hasChildren = true
 
 [[menu.main]]
-  name = "Offres de services"
+  name = "Entreprises"
   parent = "Offres"
-  identifier = "offres_services"
-  url = "/offres/#offres"
+  identifier = "Entreprises"
+  url = "/offres/#entreprises"
   weight = 10
 
 [[menu.main]]
-  name = "Tarifs"
+  name = "Recherche"
   parent = "Offres"
-  identifier = "Tarifs"
-  url = "/offres/#tarifs"
+  identifier = "Recherche"
+  url = "/offres/#recherche"
   weight = 30
 
 [[menu.main]]
-  name = "Manifeste"
-  url = "/manifeste/"
-  weight = 3
+  name = "Formations"
+  parent = "Offres"
+  identifier = "Formations"
+  url = "/offres/#formations"
+  weight = 30
 
-  [[menu.main]]
-  name = ""
+# MANIFESTE
+[[menu.main]]
+  name = "Manifeste"
   url = "/manifeste/"
   weight = 4
 
-# [[menu.main]]
-#   name = "Favoris"
-#   url = "/Favoris/"
-#   weight = 4
+# MANIFESTE
+[[menu.main]]
+  name = "Portfolio"
+  url = "/portfolio/"
+  weight = 5
 
 
 

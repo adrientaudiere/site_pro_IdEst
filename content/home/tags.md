@@ -3,7 +3,7 @@
 widget = "tag_cloud"
 active = true
 
-title = "Tags"
+title = "Mots clés"
 subtitle = ""
 
 # Order that this section will appear in.

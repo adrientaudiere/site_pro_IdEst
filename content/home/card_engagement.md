@@ -18,4 +18,4 @@ weight_cards = 8
 
   
 ---
-En savoir plus dans mon <a href="/manifeste">manifeste</a>.
+Pour en savoir plus lisez mon <a href="/manifeste">manifeste</a>.

@@ -1,10 +1,22 @@
 +++
 active = true
 widget = "short_title"
-title = "Tarifs"
+title = "Recherche"
+
+weight = 5
 +++
 
-## Taux horaires (TTC)
+## Offres
+
+* Analyses bio-informatiques de données issues de métabarcoding ADN,
+* Conseil en statistiques, bio-informatiques et outils informatiques,
+* Illustrations scientifiques (depuis l'amélioration de vos figures existantes jusqu'à une infographie complète d'une problématique complexe).
+* Une autre idée ? [Discutons-en](/#contact) !
+
+
+## Tarifs
+
+### Taux horaires (TTC)
 
 * Un jour : 350€ 
 * Une semaine : 1 500€
@@ -12,11 +24,10 @@ title = "Tarifs"
 
 ### Remises
 
-* Association à but non lucratif : 20 %
-* Recherche public : 10 %
+* Organismes de recherche public : 10 %
 
 
-## Illustrations scientifiques à destination des chercheurs
+### Illustrations scientifiques à destination des chercheurs
 
 
 | | Base projet | Par figure 1/4 pag. | 1/2 page	| 1 page  |
@@ -29,9 +40,10 @@ title = "Tarifs"
 ### Inclus :
 
   - Réflexion autour des figures,
-  - Amélioration graphique (lisibilité, esthétisme, compréhension) et mise en place d'un schéma de couleur,
-  - Mise à disposition des fichiers sources modifiables (scripts R/python/javascript/… ; fichiers svg/png/jpg/…),
-  - Modifications mineures (environ 2h de travail maximum) pour un round de reviewing.
+  - Amélioration graphique (lisibilité, esthétisme, communication) 
+  - Mise en place d'un schéma de couleur,
+  - Mise à disposition des fichiers sources modifiables avec des logiciels libres,
+  - Modifications mineures (environ 2h de travail maximum) pour un "round" de reviewing.
 
 ### En option (devis à la demande) : 
 

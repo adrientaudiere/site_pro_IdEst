@@ -1,7 +1,7 @@
 /* Color for links and image's links*/
 a {
-  color: #c93312;
-  /*  #003f5f */
+  color: #003f5f;
+  /*  #c93312 */
 }
 
 a i {
@@ -12,13 +12,73 @@ nav a i {
   color: #faefd1;
 }
 
+.site-footer {
+  border-top: 5px solid #2e7891;
+  border-radius: 2%;
+  font-size: 80%;
+}
+
+
+.footnote {
+  text-indent: 0%;
+  text-align: left;
+  font-size: 80%;
+  line-height: 125%;
+
+}
+
+.footnote br {
+  display: block;
+  margin: 8px 0;
+}
+
+i {
+  padding-left: 2px;
+}
+
+/*Style for the publications and communications lists */
+
+#publication_inter p,
+#publication_nat p,
+#communications li {
+  font-size: 80%;
+  line-height: 120%;
+  margin: 4px 0px 4px 0px;
+  text-indent: -2%;
+}
+
+.titre {
+  font-family: 'Averia Serif Libre', serif;
+  font-size: 95%;
+}
+
+img[alt=minilogo] {
+  display: inline;
+  vertical-align: text-top;
+  max-width: 20px;
+  max-height: 18px;
+}
+
+
 /* Image for Lists  */
+
+.container-fluid li {
+  list-style: none;
+  margin-left: -14px;
+}
+
+.container-fluid li:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #2e7891;
+  margin-right: 5px;
+}
+
 .container li {
   list-style: none;
   margin-left: -14px;
 }
 
-/*   background-image: url(/img/logo/logo_fleche2.svg); */
 .container li:before {
   content: "\f105";
   font-family: FontAwesome;
@@ -26,7 +86,7 @@ nav a i {
   margin-right: 5px;
 }
 
-.network-icon li{
+.network-icon li {
   margin-left: 1px;
 }
 
@@ -137,9 +197,7 @@ h4 {
   position: relative;
 }
 
-.site-footer {
-  text-align: center;
-}
+
 
 .home-section {
   padding: 20px 0 20px 0;
@@ -157,6 +215,9 @@ h4 {
 .card-deck,
 .card {
   text-align: left;
+}
+.card-deck{
+  margin: 0%;
 }
 
 .card-body {
@@ -182,11 +243,6 @@ h4 {
 
 }
 
-.card-deck {
-  flex-flow: column wrap;
-}
-
-
 /* mini correspond à des mini-logo */
 .mini img {
   width: 20px;
@@ -201,19 +257,14 @@ h4 {
 }
 
 
-
-
 /* Navbar customization */
 
 .nav-link {
-  color: #fff;
-  border-left: 5px solid rgba(0, 0, 0, 0);
-  text-decoration: none;
-  border-radius: 50%;
+  margin-left: 20px;
 }
 
 .nav-link:hover {
-  border-left: 5px solid #fff;
+  font-style: oblique;
 }
 
 
@@ -236,10 +287,14 @@ h4 {
   vertical-align: middle;
 }
 
+.section-heading h1 {
+  margin-left: 0%;
+}
 
 h1 {
-  font-size: 180%;
+  font-size: 170%;
 }
+
 
 h2 {
   display: flex;
@@ -266,20 +321,12 @@ h3 {
   padding: 5px;
 }
 
-
-@media (min-width: 1080px) {
-  .manifeste {
-    column-count: 3;
-    margin: 5%;
-    column-rule: 3px solid #2e789180;
-  }
-}
-
 @media (min-width: 768px) {
   .manifeste {
     column-count: 2;
     margin: 5%;
     column-rule: 3px solid #2e789180;
+    column-gap: 8%;
   }
 }
 
@@ -298,4 +345,64 @@ p {
 .hero-lead {
   text-indent: 0%;
   text-align: center;
+}
+
+
+.porfolio-container{ 
+  margin-top: 80px;
+}
+
+
+#puzzle {
+  padding: 2%;
+}
+
+
+body.dark {
+  color: #faefd1;
+}
+
+.dark a {
+  color: #c8a734;
+}
+
+.dark .container-fluid li:before {
+  color: #c8a734;
+}
+
+.dark .container li:before {
+  color: #c8a734;
+}
+
+.dark li li:before {
+  color: #c8a734;
+}
+
+.dark a i {
+  color: rgb(152, 166, 173);
+}
+
+.dark h2:after {
+  border-bottom: 5px solid rgb(152, 166, 173);
+}
+
+.dark #puzzle {
+  background-color: #faefd1bd;
+}
+
+.dark .card h4 a {
+  color: rgb(152, 166, 173);
+}
+
+.dark #navbar-main {
+  background-color: hsla(231, 15%, 16%, 1) !important;
+}
+
+.dark .dropdown-menu {
+  background-color: hsla(231, 15%, 16%, 1) !important;
+}
+
+
+.dark #navbar-main * {
+  color: rgb(152, 166, 173);
 }

@@ -1,3 +1,5 @@
+{{ $currentNode := . }}
+
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container-fluid">
 
@@ -27,10 +29,12 @@
             <span><i class="fas fa-home fa-2x"   style="vertical-align: middle;"></i></span>
           </a>
         </li>
+        
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
+        
         <li class="nav-item dropdown">
-          <a href="{{ .URL | relLangURL }}" class="nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+          <a href="{{ .URL | relLangURL }}" class="nav-link dropdown-toggle dropdown-toggle-split {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" data-toggle="dropdown"
             aria-haspopup="true">
             {{ .Pre }}
             <span>{{ .Name | safeHTML }}</span>
@@ -61,7 +65,7 @@
         {{ end }}
 
         <li class="nav-item">
-          <a class="nav-link" href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}
+          <a class="nav-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}
             {{ ($.Scratch.Get "target") | safeHTMLAttr }}>
             {{ .Pre }}
             <span>{{ .Name | safeHTML }}</span>

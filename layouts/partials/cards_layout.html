@@ -1,21 +1,26 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 
-{{/*  EN COURS  */}}
-<div class="container-fluid">
-  <div class="card-deck text-center">
-    {{ range .Pages }}
-
-    <div class="card col-xs-12 col-sm-6 col-lg-4">
-        <img src= {{ .Params.img_url }} class="card-img" alt="Card image cap">
-      <div class="content">
-        {{ .Content | markdownify }}
+{{/* EN COURS */}}
+<div class="container-fluid porfolio-container">
+  <div class="card-deck">
+      {{ range .Pages }}
+      <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card ml-auto mr-auto mb-3">
+          <a class="mini" style=" position: absolute; top: 4px; right: 10px;" href={{ .Params.link_url }}> <i class="fas fa-file-alt"></i> </a>
+          <img src={{ .Params.img_url }} class="card-img  card-img-top" alt="Card image">
+          <div class="card-body">
+            <div class="card-title"> {{.Title}} </div>
+            <div class="card-text p-0">
+              {{ .Content | markdownify }}
+            </div>
+          </div>
+        </div>
       </div>
-
+      {{end}}
     </div>
-    {{end}}
   </div>
 </div>
 
-
-{{ partial "footer_section.html" . }}
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
