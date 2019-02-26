@@ -1,7 +1,7 @@
 {{ $currentNode := . }}
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container-fluid">
+  <div class="container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
     <a class="navbar-brand" href="{{ "/" | relLangURL }}">
@@ -12,10 +12,11 @@
       {{- end -}}
     </a>
     {{ if or .Site.Menus.main .IsTranslated }}
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
       aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
       <span><i class="fas fa-bars"></i></span>
     </button>
+
     {{ end }}
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,16 +27,16 @@
       <ul class="navbar-nav {{ if $align_right }}ml-auto{{ else }}mr-auto{{ end }}">
         <li class="nav-item">
           <a href="/" class="nav-link" data-target="/">
-            <span><i class="fas fa-home fa-2x"   style="vertical-align: middle;"></i></span>
+            <span><i class="fas fa-home fa-2x" style="vertical-align: middle;"></i></span>
           </a>
         </li>
-        
+
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-        
+
         <li class="nav-item dropdown">
-          <a href="{{ .URL | relLangURL }}" class="nav-link dropdown-toggle dropdown-toggle-split {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" data-toggle="dropdown"
-            aria-haspopup="true">
+          <a href="{{ .URL | relLangURL }}" class="nav-link dropdown-toggle dropdown-toggle-split {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}"
+            data-toggle="dropdown" aria-haspopup="true">
             {{ .Pre }}
             <span>{{ .Name | safeHTML }}</span>
             {{ .Post }}
@@ -65,7 +66,8 @@
         {{ end }}
 
         <li class="nav-item">
-          <a class="nav-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}
+          <a class="nav-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}"
+            href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}
             {{ ($.Scratch.Get "target") | safeHTMLAttr }}>
             {{ .Pre }}
             <span>{{ .Name | safeHTML }}</span>
@@ -133,7 +135,7 @@
         {{ end }}
 
       </ul>
-
-    </div><!-- /.navbar-collapse -->
+    </div>
+  </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>

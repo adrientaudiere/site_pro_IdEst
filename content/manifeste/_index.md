@@ -23,11 +23,11 @@ Je propose mes service à un [coût maîtrisé](/offres) en privilégiant la tra
 
 ### Partages des connaissances et des outils
 
-Je m'engage à vous fournir tout les scripts et pipelines d'analyses annotés et à répondre à vos questions sur ce sujet sans limite de durée. Mon objectif est de vous fournir un maximum d'autonomie dans l'exploitation des outils que j'utilise/développe. Une partie de mes travail consistent à vous former à ces outils.
+Je m'engage à vous fournir tout les scripts et pipelines d'analyses annotés<sup id="a3">[3](#f3)</sup> et à répondre à vos questions sur ce sujet sans limite de durée. Mon objectif est de vous fournir un maximum d'autonomie dans l'exploitation des outils que j'utilise/développe. Une partie de mon travail consistent à vous former à ces outils.
 
 ### La philosophie du libre
 
-Je travaille exclusivement sous Linux<sup id="a3">[3](#f3)</sup> et utilise quasi exclusivement des logiciels libres. 
+Je travaille exclusivement sous Linux<sup id="a4">[4](#f4)</sup> et utilise quasi exclusivement des logiciels libres. 
 
 <i class="fas fa-exclamation-circle"></i> Le libre n'étant pas gratuit: je verse 1% de mon chiffre d'affaires en don pour aider au développement des logiciels libres que j'utilise le plus.
 
@@ -36,7 +36,9 @@ Je travaille exclusivement sous Linux<sup id="a3">[3](#f3)</sup> et utilise quas
 </br>
 <span id="f2"> 2. Je ne nie pas le besoin de forme complexe d'analyse dans certaines situations (par ex. les techniques de machine learning), mais j'opte ouvertement pour une attitude orientée vers l'interprétabilité des analyses et la compréhension des résultats pour mes clients.</span> <a href="#a2">[↩]</a>
 </br>
-<span id="f3"> 3. Principalement avec la distribution Kubuntu.</span> <a href="#a3">[↩]</a>
+<span id="f3"> 3. Je privilégie les formats de fichiers simples et universels tels que markdown, svg, odt, Rmarkdown et git par exemple.</span> <a href="#a3">[↩]</a>
+</br>
+<span id="f4"> 4. Principalement avec la distribution Kubuntu.</span> <a href="#a4">[↩]</a>
 </p>
 
 

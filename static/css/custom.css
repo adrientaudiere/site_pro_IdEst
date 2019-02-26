@@ -63,7 +63,22 @@ img[alt=minilogo] {
 
 .container-fluid li {
   list-style: none;
-  margin-left: -14px;
+}
+
+
+
+.home-section {
+  padding: 20px 0 20px 0;
+  /* default academic.css:  110px 0 110px 0; */
+}
+
+.container {
+  padding: 0;
+}
+
+
+.container li {
+  list-style: none;
 }
 
 .container-fluid li:before {
@@ -72,11 +87,6 @@ img[alt=minilogo] {
   color: #2e7891;
   margin-right: 5px;
   font-weight: 900;
-}
-
-.container li {
-  list-style: none;
-  margin-left: -14px;
 }
 
 .container li:before {
@@ -201,50 +211,6 @@ h4 {
 
 
 
-.home-section {
-  padding: 20px 0 20px 0;
-  /* default academic.css:  110px 0 110px 0; */
-}
-
-.card-img {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  display: block;
-  margin: 5px auto auto auto;
-}
-
-.card-deck,
-.card {
-  text-align: left;
-}
-.card-deck{
-  margin: 0%;
-}
-
-.card-body {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.card-title {
-  text-align: center;
-  font-variant-caps: all-small-caps;
-  font-weight: bold;
-}
-
-.container {
-  padding: 0;
-}
-
-.card-text ul {
-  list-style-image: url(/img/logo/logo_fleche2.svg);
-  font-size: 90%;
-  padding-left: 8px;
-  padding-right: 8px;
-
-}
-
 /* mini correspond à des mini-logo */
 .mini img {
   width: 20px;
@@ -254,12 +220,10 @@ h4 {
   width: 25px;
 }
 
-#hero_carousel {
-  margin-bottom: 40px;
-}
 
-
-/* Navbar customization */
+/*************************************************
+ *  Navbar customization
+ **************************************************/
 
 .nav-link {
   margin-left: 20px;
@@ -285,16 +249,16 @@ h4 {
 }
 
 
-.manifeste h1 {
-  vertical-align: middle;
+/*************************************************
+ *  Title
+ **************************************************/
+
+h1 {
+  font-size: 170%;
 }
 
 .section-heading h1 {
   margin-left: 0%;
-}
-
-h1 {
-  font-size: 170%;
 }
 
 
@@ -321,41 +285,13 @@ h3 {
   padding: 5px;
 }
 
-@media (min-width: 768px) {
-  .manifeste {
-    column-count: 2;
-    margin: 5%;
-    column-rule: 3px solid #2e789180;
-    column-gap: 8%;
-  }
-}
-
-@media (max-width: 768) {
-  .manifeste {
-    column-count: 1;
-    margin: 5%;
-  }
-}
 
 p {
   text-indent: 3%;
   text-align: justify;
 }
 
-.hero-lead {
-  text-indent: 0%;
-  text-align: center;
-}
 
-
-.porfolio-container{ 
-  margin-top: 80px;
-}
-
-
-#puzzle {
-  padding: 2%;
-}
 
 
 
@@ -409,9 +345,127 @@ table > tbody > tr:hover > th {
 }
 
 
+/*************************************************
+ For extrasmall device discard the negative margin in .row 
+ to avoid row wider than container
+ **************************************************/
+
+@media (max-width: 564px) { 
+  .row {
+    margin: 0%;
+  }
+}
 
 /*************************************************
- *  Short Title
+ *  Wider container for very large screen
+ **************************************************/
+
+@media (min-width: 1400px) {
+  .container{
+      max-width: 1300px;
+  }
+}
+
+
+
+
+
+
+
+/*************************************************
+/*************************************************
+/*************************************************
+/*************************************************
+ *  LAYOUT AND SPECIAL PAGES
+/*************************************************
+/*************************************************
+**************************************************/
+ 
+.hero-lead {
+  text-indent: 0%;
+  text-align: center;
+}
+
+.porfolio-container{ 
+  margin-top: 80px;
+}
+
+#puzzle {
+  padding: 2%;
+}
+
+#hero_carousel {
+  margin-bottom: 40px;
+}
+
+
+/*************************************************
+ *  Manifeste
+ **************************************************/
+
+ @media (min-width: 768px) {
+  .manifeste {
+    column-count: 2;
+    margin: 5%;
+    column-rule: 3px solid #2e789180;
+    column-gap: 8%;
+  }
+}
+
+@media (max-width: 768) {
+  .manifeste {
+    column-count: 1;
+    margin: 5%;
+  }
+}
+
+.manifeste h1 {
+  vertical-align: middle;
+}
+
+
+/*************************************************
+ *  Cards
+ **************************************************/
+
+.card-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 5px auto auto auto;
+}
+
+.card-deck,
+.card {
+  text-align: left;
+}
+.card-deck{
+  margin: 0%;
+}
+
+.card-body {
+  padding: 0px 15px 0px 15px;
+
+}
+
+.card-title {
+  text-align: center;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+}
+
+
+.card-text ul {
+  list-style-image: url(/img/logo/logo_fleche2.svg);
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+
+}
+
+/*************************************************
+ *  Short Title layout
  **************************************************/
 
 
@@ -423,7 +477,7 @@ table > tbody > tr:hover > th {
 
 
 /*************************************************
- *  Dark theme
+ *  Some add to dark theme
  **************************************************/
 
 
@@ -474,4 +528,21 @@ body.dark {
 
 .dark #navbar-main * {
   color: rgb(152, 166, 173);
+}
+
+/* Table Striped */
+.dark tr:nth-child(2n) > td{
+  background-color: rgb(51, 51, 51)!important;
+  border-top: 2px solid #faefd1;
+}
+
+/* Table Striped */
+.dark tr:nth-child(2n+1) > td{
+  background-color: rgb(78, 78, 78)!important;
+  border-top: 2px solid #faefd1;
+}
+
+
+.dark img[alt=minilogo] {
+  color:#faefd1;
 }
