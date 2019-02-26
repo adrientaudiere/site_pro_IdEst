@@ -4,7 +4,6 @@ active = false #  When active = false only use the widget_compo. If true add **a
 
 link_url = "/doc/XXXXX"
 img_url = "/img/volcan.webp"
-img_link = "/img/logo/paper.svg"
 
 weight = 1
 weight_cards = 1

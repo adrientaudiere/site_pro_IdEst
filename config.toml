@@ -101,7 +101,7 @@ enableGitInfo = false
   font = "Crete-quicksand"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = ""
+  description = "Analyses de données, illustrations et formations. Site professionnel d'Adrien Taudière."
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
   sharing_image = ""
@@ -111,7 +111,7 @@ enableGitInfo = false
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = "logo/logo_col_large.png"
+  logo = "logo/logo_col_large.webp"
 
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
@@ -159,7 +159,7 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["R"]
+  highlight_languages = ["r"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -391,6 +391,14 @@ enableGitInfo = false
   identifier = "Formation"
   url = "/cv/#formation"
   weight = 1
+
+[[menu.main]]
+  name = "Formations en ligne"
+  parent = "CV"
+  identifier = "Formation_ligne"
+  url = "/cv/#forma_en_ligne"
+  weight = 2
+
 
 [[menu.main]]
   name = "Communications orales"

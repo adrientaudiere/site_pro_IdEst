@@ -20,7 +20,7 @@ Voir également mon <a href="/static/doc/CVsuccinct_recherche.pdf">CV détaillé
 - Tutoriels et présentations concernant le logiciel R au sein de mes laboratoires.
 
  
-<h2> Activités de recherche (voir profils <a itemprop="sameAs" href="https://orcid.org/0000-0003-1088-1182" target="_blank" rel="noopener">   <i class="ai ai-orcid icon"></i> </a>, <a itemprop="sameAs" href="https://www.researchgate.net/profile/Adrien_Taudiere" target="_blank" rel="noopener"> <i class="ai ai-researchgate icon"></i> </a> et <a href="https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=author%3AAdrien+Taudi%C3%A8re&btnG=&oq="> <i class="ai ai-google-scholar icon"></i> </a>) : </h2>
+<h2> Activités de recherche (voir profils <a itemprop="sameAs" href="https://orcid.org/0000-0003-1088-1182" rel="external">   <i class="ai ai-orcid icon"></i> </a>, <a itemprop="sameAs" href="https://www.researchgate.net/profile/Adrien_Taudiere" rel="external"> <i class="ai ai-researchgate icon"></i> </a> et <a href="https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=author%3AAdrien+Taudi%C3%A8re&btnG=&oq="> <i class="ai ai-google-scholar icon"></i> </a>) : </h2>
 
 - Doctorat de l'[EPHE](https://www.ephe.fr/) en **Écologie** au [CEFE](https://www.cefe.cnrs.fr/),
 - <abbr title="Attachés Temporaires d'Enseignement et de Recherche" lang="fr">ATER</abbr> à l'[UM](https://www.umontpellier.fr/),

@@ -11,7 +11,7 @@
   </button>
 
   {{ if eq $.Site.Params.search.engine 1 }}
-  <input name="q" type="search" class="form-control" id="search-query" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off">
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off" aria-label="search query">
   {{ end }}
 </form>
 

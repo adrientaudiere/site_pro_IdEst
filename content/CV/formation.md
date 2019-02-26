@@ -1,6 +1,6 @@
 +++
 # Experience widget.
-widget = "experience" 
+widget = "short_title"
 active = true
 
 title = "Formation initiale"
@@ -8,65 +8,19 @@ subtitle = ""
 
 weight = 8
 
-# Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "01/02/06"
-
-# Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
-
-
-[[experience]]
-  title = "Licence 1-2 Science et Vie de la Terre"
-  company = "Université de Sciences de Nantes"
-  company_url = "https://www.univ-nantes.fr/"
-  location = "Nantes"
-  date_start = "01/09/2007"
-  date_end = "01/07/2009"
-
-
-[[experience]]
-  title = "Licence 3 Biologie des Organismes"
-  company = "Université de Montpellier"
-  company_url = "http://www.umontpellier.fr/"
-  location = "Montpellier"
-  date_start = "01/09/2009"
-  date_end = "01/07/2010"
-
-[[experience]]
-  title = "Master 2 Biologie Écologie Évolution"
-  company = "Université de Montpellier"
-  company_url = "http://www.umontpellier.fr/"
-  location = "Montpellier"
-  date_start = "01/09/2010"
-  date_end = "01/08/2012"
-
-[[experience]]
-  title = "Master 2 Biodiversité et gestion de l'environnement"
-  company = "École Pratique des Hautes Études"
-  company_url = "https://www.ephe.fr/"
-  location = "Paris"
-  date_start = "01/09/2012"
-  date_end = "01/08/2013"
-
-[[experience]]
-  title = "Thèse"
-  company = "École Pratique des Hautes Études"
-  company_url = "https://www.ephe.fr/"
-  location = "Montpellier"
-  date_start = "01/10/2013"
-  date_end = "31/12/2016"
-  description = """Déterminants de la structure des communautés fongiques dans les forêts de Corse : Rôle des perturbations et de la composition forestière"""
-
-[[experience]]
-  title = "Auto-formation"
-  company = "IdEst"
-  company_url = "https://adrientaudiere.com"
-  location = "Saint-André de Sangonis"
-  date_start = "31/09/2018"
-  date_end = ""
 
 +++
+
+2013 – 2016
+: **Thèse d'Écologie**  [EPHE](https://www.ephe.fr) --- [CEFE](http://www.cefe.cnrs.fr/) : <span class="titre"> Déterminants de la structure des communautés fongiques dans les forêts de Corse : Rôle des perturbations et de la composition forestière. <a href="https://hal.archives-ouvertes.fr/tel-01578827"> <i class="far fa-file-pdf"></i> </a>  </span> <br/>
+*Sous la direction* de [C. Carcaillet](https://www.univ-psl.fr/fr/expert/christopher-carcaillet) et
+de [F. Richard](http://www.cefe.cnrs.fr/fr/recherche/ines/ibt/1058-ec/268-franck-richard).
+
+
+2012 – 2013
+:   **Master 2 EGB** ([Environnement et Gestion de la Biodiversité](https://www.ephe.fr/formations/master/master-biologie-sante-ecologie-bse/biodiversite-et-gestion-de-l-environnement-bge)) à l'[École Pratique des Hautes Études](https://www.ephe.fr) 
+2010 – 2012
+:   **Master BEE** ([Biodiversité Écologie Évolution](http://www.masters-biologie-ecologie.com/blog/)) – Université de Montpellier 
+
+2007 – 2010
+:   **Licence BO** (Biologie des Organismes) – Université de Nantes (L1 – L2) & Montpellier (L3) 

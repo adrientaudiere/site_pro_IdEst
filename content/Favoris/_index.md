@@ -761,7 +761,6 @@ _____________________________________________________________________
 
 ### Web
 * [Blog de Regis Philibert (incl. hugo)](https://regisphilibert.com/)
-* [Font Awesome Cheatsheet](http://fontawesome.io/cheatsheet/)
 * [HTML Map, CSS Map, HTML Image Map Creator - Easily create your HTML image map](http://www.html-map.com/)
 * [ET-book : Police web Tufte](https://github.com/edwardtufte/et-book)
 * [Template html open source](https://html5up.net/)

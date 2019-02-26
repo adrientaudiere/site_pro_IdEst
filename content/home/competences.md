@@ -28,7 +28,7 @@ weight = 7
 - Maîtrise de [R](https://cran.r-project.org/), Inkscape, Linux, Latex, et différents logiciels de métagénomique
 - Bonne connaissance en html5, css3
 - Base en python, git & bash 
-- Création et maintien du package R ***cati*** <a itemprop="sameAs" href="https://adrientaudiere.com/doc/pdfs/Taudiere2016.pdf" target="_blank" rel="noopener">   <i class="fas fa-file-pdf icon"></i> </a>  <a itemprop="sameAs" href="https://github.com/adrientaudiere/" target="_blank" rel="noopener">   <i class="fab fa-github icon"></i> </a>  <a href="https://cran.rstudio.com/web/packages/cati/index.html" target="_blank"><img style="display: inline;" src="https://cranlogs.r-pkg.org/badges/grand-total/cati?color=yellowgreen" alt="CRAN Total"></a> <a href="https://cran.rstudio.com/web/packages/cati/index.html" target="_blank"><img style="display: inline;" src="https://cranlogs.r-pkg.org/badges/cati?color=orange" alt="CRAN by month"></a>
+- Création et maintien du package R ***cati*** <a itemprop="sameAs" href="https://adrientaudiere.com/doc/pdfs/Taudiere2016.pdf" download>   <i class="fas fa-file-pdf icon"></i> </a>  <a itemprop="sameAs" href="https://github.com/adrientaudiere/" rel="external">   <i class="fab fa-github icon"></i> </a>  <a href="https://cran.rstudio.com/web/packages/cati/index.html" target="_blank"><img style="display: inline;" src="https://cranlogs.r-pkg.org/badges/grand-total/cati?color=yellowgreen" alt="CRAN Total"></a> <a href="https://cran.rstudio.com/web/packages/cati/index.html" target="_blank"><img style="display: inline;" src="https://cranlogs.r-pkg.org/badges/cati?color=orange" alt="CRAN by month"></a>
 
 ## Visualisation
 
