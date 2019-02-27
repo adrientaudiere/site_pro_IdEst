@@ -65,21 +65,11 @@ img[alt=minilogo] {
   list-style: none;
 }
 
-
-
-.home-section {
-  padding: 20px 0 20px 0;
-  /* default academic.css:  110px 0 110px 0; */
-}
-
-.container {
-  padding: 0;
-}
-
-
 .container li {
   list-style: none;
 }
+
+
 
 .container-fluid li:before {
   content: "\f105";
@@ -96,6 +86,18 @@ img[alt=minilogo] {
   margin-right: 5px;
   font-weight: 900;
 }
+
+.home-section {
+  padding: 20px 0 20px 0;
+  /* default academic.css:  110px 0 110px 0; */
+}
+
+.container {
+  padding: 0;
+}
+
+
+
 
 .network-icon li {
   margin-left: 1px;
@@ -301,15 +303,16 @@ p {
  **************************************************/
 
 dt {
-    float: left;
-    clear: left;
-    width: 12%;
-    font-style: italic;
-    font-size: 0.95em;
-    font-weight: 400;
+  float: left;
+  clear: left;
+  width: 12%;
+  font-style: italic;
+  font-size: 0.95em;
+  font-weight: 400;
 }
+
 dd {
-    margin-left: 15%;
+  margin-left: 15%;
 }
 
 
@@ -318,29 +321,29 @@ dd {
  **************************************************/
 
 
-table > thead > tr > th {
+table>thead>tr>th {
   vertical-align: bottom;
   border-bottom: 2px solid #2e7891;
 }
 
 
 /* Table Striped */
-table > tbody > tr:nth-child(even) > td,
-table > tbody > tr:nth-child(even) > th {
+table>tbody>tr:nth-child(even)>td,
+table>tbody>tr:nth-child(even)>th {
   background-color: rgb(229, 215, 177);
   border-top: 2px solid #2e7891;
 }
 
 /* Table Striped */
-table > tbody > tr:nth-child(odd) > td,
-table > tbody > tr:nth-child(odd) > th {
+table>tbody>tr:nth-child(odd)>td,
+table>tbody>tr:nth-child(odd)>th {
   background-color: #faefd1;
   border-top: 2px solid #2e7891;
 }
 
 /* Table Hover */
-table > tbody > tr:hover > td,
-table > tbody > tr:hover > th {
+table>tbody>tr:hover>td,
+table>tbody>tr:hover>th {
   background-color: #bdbbbb;
 }
 
@@ -350,7 +353,7 @@ table > tbody > tr:hover > th {
  to avoid row wider than container
  **************************************************/
 
-@media (max-width: 564px) { 
+@media (max-width: 564px) {
   .row {
     margin: 0%;
   }
@@ -361,8 +364,8 @@ table > tbody > tr:hover > th {
  **************************************************/
 
 @media (min-width: 1400px) {
-  .container{
-      max-width: 1300px;
+  .container {
+    max-width: 1300px;
   }
 }
 
@@ -380,15 +383,12 @@ table > tbody > tr:hover > th {
 /*************************************************
 /*************************************************
 **************************************************/
- 
+
 .hero-lead {
   text-indent: 0%;
   text-align: center;
 }
 
-.porfolio-container{ 
-  margin-top: 80px;
-}
 
 #puzzle {
   padding: 2%;
@@ -399,11 +399,58 @@ table > tbody > tr:hover > th {
 }
 
 
+
+/*************************************************
+ *  Portfolio
+ **************************************************/
+
+.porfolio-container p {
+  font-size: 80%;
+}
+
+.porfolio-container img {
+  margin-top: 12px;
+  border-radius: 2%;
+
+}
+
+.porfolio-container {
+  margin-top: 80px;
+  padding: 0%;
+}
+
+.porfolio-container ul {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0%;
+}
+
+.porfolio-container li {
+  padding: 2px;
+}
+
+.porfolio-container li:before {
+  content: none;
+}
+
+.porfolio-container li:hover {
+  transform: scale(1.2)
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    margin: 15px;
+  }
+}
+
 /*************************************************
  *  Manifeste
  **************************************************/
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
   .manifeste {
     column-count: 2;
     margin: 5%;
@@ -440,7 +487,8 @@ table > tbody > tr:hover > th {
 .card {
   text-align: left;
 }
-.card-deck{
+
+.card-deck {
   margin: 0%;
 }
 
@@ -517,6 +565,10 @@ body.dark {
   color: rgb(152, 166, 173);
 }
 
+.dark .porfolio-container .card img {
+  background: rgba(255, 255, 255, 0.514);
+}
+
 .dark #navbar-main {
   background-color: hsla(231, 15%, 16%, 1) !important;
 }
@@ -531,18 +583,18 @@ body.dark {
 }
 
 /* Table Striped */
-.dark tr:nth-child(2n) > td{
-  background-color: rgb(51, 51, 51)!important;
+.dark tr:nth-child(2n)>td {
+  background-color: rgb(51, 51, 51) !important;
   border-top: 2px solid #faefd1;
 }
 
 /* Table Striped */
-.dark tr:nth-child(2n+1) > td{
-  background-color: rgb(78, 78, 78)!important;
+.dark tr:nth-child(2n+1)>td {
+  background-color: rgb(78, 78, 78) !important;
   border-top: 2px solid #faefd1;
 }
 
 
 .dark img[alt=minilogo] {
-  color:#faefd1;
+  color: #faefd1;
 }

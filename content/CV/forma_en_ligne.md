@@ -2,10 +2,13 @@
 title = "Formations en ligne"
 widget = "short_title"
 # Order that this section will appear in.
-weight = 9
+weight = 2
 
 +++
 
+
+<details close>
+   <summary>Détails des formations en ligne suivies</summary>
 
 | Formations                                                  	| Temps 	| Organismes                                                                                                  	|
 |-------------------------------------------------------------	|-------	|---------------------	|
@@ -35,3 +38,7 @@ weight = 9
 | Composer son ePortfolio                                     	| 1h  	|               	| [Openclassroom](https://openclassrooms.com/fr/courses/3811216-composer-son-eportfolio)                                                  	| 
 
 -->
+
+
+ </table>
+</details>

@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{/* EN COURS */}}
+<div class="container-fluid porfolio-container">
+  <div class="card-columns">
+    {{ range .Pages }}
+    {{/*  <div class="col-sm-12 col-md-6 col-lg-4">  */}}
+      <div class="card ml-auto mr-auto mb-3 pt-3">
+        <div class="card-body p0">
+          {{ .Content | markdownify }}
+        </div>
+      </div>
+    {{/*  </div>  */}}
+    {{end}}
+  </div>
+</div>
+</div>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

@@ -4,7 +4,7 @@ widget = "cards_widget"
 widget_compo = "TRUE"
 active = true
 
-img_url = "/img/profil_circle.webp"
+img_url = "/img/circles/profil_circle_modif.webp"
 link_url = "#about"
 img_link = "/img/mini/int-link-orange.svg"
 
@@ -17,4 +17,4 @@ weight_cards = 1
 - <span style="font-size: 95%;">Amateur de voyages, BD et rugby</span>
 
 ---
-Voir mon <a href="/static/doc/CVsuccinct_recherche.pdf">CV détaillé</a> et <a href="#competence">mes compétences</a>. 
+Voir mon <a href="/cv">CV <i class="fas fa-id-card"></i></a> et <a href="#competence">mes compétences <i class="fas fa-cogs"></i></a>. 

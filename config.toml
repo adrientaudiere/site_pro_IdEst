@@ -59,7 +59,7 @@ enableGitInfo = false
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "IdEst", url = "https://adrien.taudiere.com/" } ]
 
-  avatar = "profil_circle.webp"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "circles/profil_circle.webp"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "idest@zaclys.net"
@@ -399,13 +399,26 @@ enableGitInfo = false
   url = "/cv/#forma_en_ligne"
   weight = 2
 
+[[menu.main]]
+  name = "Engagements collectifs"
+  parent = "CV"
+  identifier = "Engagements"
+  url = "/cv/#engagements"
+  weight = 3
+
+[[menu.main]]
+  name = "Enseignement"
+  parent = "CV"
+  identifier = "Enseignement"
+  url = "/cv/#enseignement"
+  weight = 4
 
 [[menu.main]]
   name = "Communications orales"
   parent = "CV"
   identifier = "communications"
   url = "/cv/#communications"
-  weight = 3
+  weight = 5
 
 
 [[menu.main]]
@@ -413,14 +426,14 @@ enableGitInfo = false
   parent = "CV"
   identifier = "Publication_nat"
   url = "/cv/#publication_nat"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
   name = "Publications internationales"
   parent = "CV"
   identifier = "Publication_inter"
   url = "/cv/#publication_inter"
-  weight = 8
+  weight = 7
 
 # OFFRES
 [[menu.main]]
@@ -449,7 +462,7 @@ enableGitInfo = false
   parent = "Offres"
   identifier = "Formations"
   url = "/offres/#formations"
-  weight = 30
+  weight = 33
 
 # MANIFESTE
 [[menu.main]]

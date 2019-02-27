@@ -1,14 +1,8 @@
 +++
 # Experience widget.
 widget = "short_title"
-active = true
-
 title = "Formation initiale"
-subtitle = ""
-
-weight = 8
-
-
+weight = 1
 +++
 
 2013 – 2016

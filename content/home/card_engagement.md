@@ -4,7 +4,7 @@ widget_compo = "TRUE" # When widget_compo = true : add to the card in homepage
 active = false #  When active = false only use the widget_compo. If true add **also** a presentation section using default layout.
 
 link_url = "xxx"
-img_url = "/img/volcan.webp"
+img_url = "/img/circles/signe_circle.webp"
 img_link = "/img/mini/ext-link-orange.svg"
 
 weight = 1
@@ -18,4 +18,4 @@ weight_cards = 8
 
   
 ---
-Pour en savoir plus lisez mon <a href="/manifeste">manifeste</a>.
+Pour en savoir plus lisez mon <a href="/manifeste">manifeste <i class="fas fa-hands"></i></a>.
