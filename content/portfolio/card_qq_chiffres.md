@@ -17,7 +17,7 @@ weight = 1
 
 ### Quelques chiffres sur l'interaction ectomycorhyzienne
 
-Cette planche de vulgarisation résume de nombreuses caractéristiques des interactions plantes--champignons ectomycorhyziens<sup><a href="https://fr.wikipedia.org/wiki/Ectomycorhize"><i class="fab fa-wikipedia-w" style="font-size: 0.5rem;"></i> </a></sup> à travers des chiffres issues de la littérature scientifique.
+Cette planche de vulgarisation résume de nombreuses caractéristiques des interactions plantes--champignons ectomycorhyziens<sup><a href="https://fr.wikipedia.org/wiki/Ectomycorhize"><i class="fab fa-wikipedia-w" style="font-size: 0.5rem;"></i> </a></sup> à travers des chiffres issus de la littérature scientifique.
 
 ---
 

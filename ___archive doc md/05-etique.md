@@ -2,8 +2,8 @@
 
 i) Au service des chercheurs dans une conception de service public
 
-Augmentation générale du recours à la prestation de service dans la recherche public en France.
-Mission de service public
+Augmentation générale du recours à la prestation de service dans la recherche publique en France.
+Mission de service publique
 
 ! Un coût maîtrisé
 ! Une intégrité
@@ -11,7 +11,7 @@ Mission de service public
 
 ii) La philosophie du libre
 
-  - Tout les scripts et pipelines d'analyses disponibles et lisibles. Mon objectif: vous transmettre au maximum les clefs pour utiliser les outils que j'utilise/développe sans moi. Une transparence maximum
+  - Tous les scripts et pipelines d'analyses disponibles et lisibles. Mon objectif: vous transmettre au maximum les clefs pour utiliser les outils que j'utilise/développe sans moi. Une transparence maximum
 
   - Utilisations quasi uniquement de logiciels libres. Travail sous linux.
 

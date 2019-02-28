@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://adrien.taudiere.com/"
+baseurl = "https://adrientaudiere.com/"
 
 # Title of your site
 title = "IdEst : site professionnel d'Adrien Taudière"
@@ -57,7 +57,7 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "IdEst", url = "https://adrien.taudiere.com/" } ]
+  organizations = [ { name = "IdEst", url = "https://adrientaudiere.com/" } ]
 
   avatar = "circles/profil_circle.webp"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
@@ -101,7 +101,7 @@ enableGitInfo = false
   font = "Crete-quicksand"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = "Analyses de données, illustrations et formations. Site professionnel d'Adrien Taudière."
+  description = "Analyse de données, illustration et formation. Site professionnel d'Adrien Taudière."
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
   sharing_image = ""
@@ -326,52 +326,52 @@ enableGitInfo = false
   align_right = true
 
 
-# ACCEUIL
+# Accueil
 [[menu.main]]
-  name = "Acceuil"
+  name = "Accueil"
   url = "/"
   weight = 1
-  identifier = "Acceuil"
+  identifier = "Accueil"
   hasChildren = true
 
 [[menu.main]]
   name = "Résumé"
-  parent = "Acceuil"
+  parent = "Accueil"
   identifier = "resume"
   url = "#card_quisuisje"
   weight = 1
 
 [[menu.main]]
   name = "Biographie"
-  parent = "Acceuil"
+  parent = "Accueil"
   identifier = "Biographie"
   url = "#biographie"
   weight = 10
 
 [[menu.main]]
   name = "Société"
-  parent = "Acceuil"
+  parent = "Accueil"
   identifier = "Société"
   url = "#societe"
   weight = 11
 
 [[menu.main]]
   name = "Compétences"
-  parent = "Acceuil"
+  parent = "Accueil"
   identifier = "competences"
   url = "#competences"
   weight = 30
 
 [[menu.main]]
   name = "Projets en cours"
-  parent = "Acceuil"
+  parent = "Accueil"
   identifier = "Projets en cours"
   url = "#projects"
   weight = 40
 
 [[menu.main]]
   name = "Contact"
-  parent = "Acceuil"
+  parent = "Accueil"
   identifier = "Contact"
   url = "#contact"
   weight = 60

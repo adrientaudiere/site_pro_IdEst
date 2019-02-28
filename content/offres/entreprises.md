@@ -9,8 +9,8 @@ weight = 2
   
 ## Offres
 
-* Conseil et développement de solutions logiciels,
-* Analyses de données complexes et rapports automatisés,
+* Conseil et développement de solutions logicielles,
+* Analyse de données complexes et rapports automatisés,
 * Une autre idée ? [Contactez moi](/#contact) !
 
 

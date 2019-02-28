@@ -14,7 +14,7 @@ weight = 9
 
 
 2013 – 2017
-: **Moniteur** (3 ans) puis <abbr title="Attachés Temporaires d'Enseignement et de Recherche" lang="fr">**ATER**</abbr> (1 an) à l'[Université de Montpellier](http://www.umontpellier.fr/). Participation à 14 <abbr title="Unité d'enseignement" lang="fr">UEs</abbr> --- principalement en **Écologie**, **Statistiques** et **Mycologie** --- pour un total de 296 heures.
+: **Moniteur** (3 ans) puis <abbr title="Attaché Temporaire d'Enseignement et de Recherche" lang="fr">**ATER**</abbr> (1 an) à l'[Université de Montpellier](http://www.umontpellier.fr/). Participation à 14 <abbr title="Unité d'enseignement" lang="fr">UEs</abbr> --- principalement en **Écologie**, **Statistiques** et **Mycologie** --- pour un total de 296 heures.
 
 <details close id="detail_ens">
    <summary>Détails des unités d'enseignements</summary>

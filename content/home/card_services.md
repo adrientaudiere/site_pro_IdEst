@@ -1,5 +1,5 @@
 +++
-title = "Prestations de services :"
+title = "Prestations de service :"
 widget_compo = "TRUE" # When widget_compo = true : add to the card in homepage
 active = false #  When active = false only use the widget_compo. If true add **also** a presentation section using default layout.
 
@@ -11,7 +11,7 @@ weight = 1
 weight_cards = 3
 +++
 
-- **Analyses de données**
+- **Analyse de données**
 - **Infographies** <span style="font-size: 90%;">(création & amélioration)</span>
 - **Formations** <span style="font-size: 90%;">(logiciels libres, R, …)</span> 
   

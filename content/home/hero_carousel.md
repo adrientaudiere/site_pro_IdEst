@@ -7,7 +7,7 @@ widget = "hero_carousel"
 
 [[item]]
 align = "center"
-content = "Analyses de données et infographie"
+content = "Analyse de données et infographie"
 overlay_color = "#666"
 overlay_filter = 0.5
 overlay_img = "hero_bg/ruisseau.webp"

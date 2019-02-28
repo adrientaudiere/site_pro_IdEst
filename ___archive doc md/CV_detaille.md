@@ -41,7 +41,7 @@ Oct. 2013 – Juin 2016
 ## Engagements collectifs
 
 2013 – 2017
-:   **Organisation des séminaires étudiants** du [CEFE](http://www.cefe.cnrs.fr/) et animation de séminaires en épistémologie, statistique et informatique.
+:   **Organisation des séminaires étudiants** du [CEFE](http://www.cefe.cnrs.fr/) et animation de séminaires en épistémologie, statistiques et informatique.
 
 2013 – 2016
 :   **Représentant étudiant** à l'assemblée de section SVT de l'[EPHE](https://www.ephe.fr) et dans l'[équipe interactions biotiques](http://www.cefe.cnrs.fr/fr/recherche/ines/ibt/) du [CEFE](http://www.cefe.cnrs.fr/).
@@ -228,7 +228,7 @@ Collectif. 2014. Petit guide naturaliste de la faculté de science. *Faculté de
 | &#124;  | HMBE105 | TP + TD Écologie des Populations, communautés      | S. Maurice  | M1     | 9     |
 | &#124;  | HMBE108 | CM + TD Diversité et biogéographie des écosystèmes | D. McKey    | M1     | 21,5  |
 | &#124;  | HLBE101 | CM + TD Biologie Intégrative                       | J-H. Lignot | L1     | 16,5  |
-| &#124;  | HMBE3A2 | TD analyse article interactions plantes/animaux    | R. Manlay   | M1     | 12    |
-| &#124;  | HMBS123 | TD Biostatistique                                  | J. Claude   | M1     | 10    |
+| &#124;  | HMBE3A2 | TD Analyse d'articles interactions plantes/animaux    | R. Manlay   | M1     | 12    |
+| &#124;  | HMBS123 | TD Bio-statistique                                  | J. Claude   | M1     | 10    |
 | Total     |         |                                                    |             |        | **296,5** |
 </div>

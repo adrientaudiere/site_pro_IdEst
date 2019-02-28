@@ -10,7 +10,7 @@ summary = "Questionnaire en ligne et analyse des résultats"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Association", "Analyses automatisées", "Biostatistiques", "Questionnaire en ligne"]
+tags = ["Association", "Analyses automatisées", "Bio-statistiques", "Questionnaire en ligne"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "http://example.org"

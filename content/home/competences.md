@@ -34,17 +34,17 @@ weight = 7
 
 - Maîtrise de [R](https://cran.r-project.org/), [Inkscape](http://inkscape.org/), et de nombreux packages R de visualisation,
 - Bonne connaissance du package R [ggplot2](https://ggplot2.tidyverse.org/) et des packages [htmlwidgets](https://www.htmlwidgets.org/),
-- Plusieurs dizaines de figures dont certaines interactives à mon actifs (voir [le porfolio](/portfolio)).
+- Plusieurs dizaines de figures dont certaines interactives à mon actif (voir [le porfolio](/portfolio)).
 
-## Biostatistiques
+## Bio-statistiques
 
-- Grande expérience d'utilisations des statistiques en biologie,
-- Expérience d'enseignement des biostatistiques de la Licence 1 à la Licence 3 à l'<abbr title="Université de Montpellier" lang="fr">UM</abbr>,
+- Grande expérience d'utilisation des statistiques en biologie,
+- Expérience d'enseignement des bio-statistiques de la Licence 1 à la Licence 3 à l'<abbr title="Université de Montpellier" lang="fr">UM</abbr>,
 - Bonnes connaissances en analyses uni et multivariées.
 
 ## Analyses de données complexes
 
 - Maîtrise de [R](https://cran.r-project.org/) et de nombreux packages d'analyses,
 - Bonnes connaissances des analyses de réseaux d'interactions,
-- Nombreuses expérience d'analyse de données complexes (voir mes [publications](/cv/#publication_inter)),
+- Nombreuses expériences d'analyse de données complexes (voir mes [publications](/cv/#publication_inter)),
 - Notion d'intelligence artificielle .

@@ -24,7 +24,7 @@ weight = 5
 
 ### Remises
 
-* Organismes de recherche public : 10 %
+* Organismes de recherche publique : 10 %
 
 
 ### Illustrations scientifiques à destination des chercheurs

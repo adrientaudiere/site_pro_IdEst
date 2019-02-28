@@ -11,7 +11,7 @@ weight = 1
 weight_cards = 10
 +++
 
-- Analyses de données (biologiques)
+- Analyse de données (biologiques)
 - Infographies scientifiques
 - Autres projets
   

@@ -23,7 +23,7 @@ weight = 12
 
 ### Réseaux d'interactions écologiques
 
-Cette figure illustre la composition des communautés de champignons <abbr title="Organismes vivants qui vit à l'intérieur des tissus vivants des plantes."> endophytes </abbr> du pin laricio en Corse. Plus d'informations disponible dans l'article <a href="/doc/pdfs/Taudiere2018.pdf""> <abbr title="Diversity of foliar endophytic ascomycetes in the endemic Corsican pine forests">Taudière et al. 2018</abbr></a>.
+Cette figure illustre la composition des communautés de champignons <abbr title="Organismes qui vit à l'intérieur des tissus des plantes."> endophytes </abbr> du pin laricio en Corse. Plus d'informations disponibles dans l'article <a href="/doc/pdfs/Taudiere2018.pdf"> <abbr title="Diversity of foliar endophytic ascomycetes in the endemic Corsican pine forests">Taudière et al. 2018</abbr></a>.
 
 ---
 
