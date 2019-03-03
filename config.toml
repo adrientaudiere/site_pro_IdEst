@@ -9,7 +9,7 @@
 baseurl = "https://adrientaudiere.com/"
 
 # Title of your site
-title = "IdEst : site professionnel d'Adrien Taudière"
+title = "IdEst : Analyses de données, infographie et formations en bio-informatiques"
 
 keywords = "analyse de données, illustrations scientifiques, formations R, creation de site web, Adrien Taudière, IdEst"
 
@@ -520,21 +520,20 @@ enableGitInfo = false
 # Français
 [languages.fr]
   languageCode = "fr-fr"
-  title = "IdEst : Site professionnel d'Adrien Taudière"
   [languages.fr.params]
     name = "Adrien Taudière"
     role = "Freelance"
 
-# English
-[languages.en]
-  languageCode = "en-us"
-  title = "IdEst: Adrien Taudière's professional website"
-  [languages.en.params]
-    name = "Adrien Taudière"
-    role = "Freelance"
-  [[languages.en.menu.main]]
-    name = "About"
-    url = "#about"
-    weight = 1
-    ### À compléter
+# # English
+# [languages.en]
+#   languageCode = "en-us"
+#   title = "IdEst: Adrien Taudière's professional website"
+#   [languages.en.params]
+#     name = "Adrien Taudière"
+#     role = "Freelance"
+#   [[languages.en.menu.main]]
+#     name = "About"
+#     url = "#about"
+#     weight = 1
+#     ### À compléter
 
