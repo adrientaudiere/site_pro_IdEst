@@ -13,6 +13,8 @@ nav a i {
 }
 
 .site-footer {
+  margin-top: 0px;
+  padding-top: 5px;
   border-top: 5px solid #2e7891;
   font-size: 80%;
 }
@@ -97,7 +99,9 @@ img[alt=minilogo] {
 }
 
 
-
+#contact li:before {
+  content: "";
+}
 
 .network-icon li {
   margin-left: 1px;
@@ -147,6 +151,11 @@ h3,
 h4 {
   margin: 2px;
   color: #2e7891;
+}
+
+h4{
+  text-indent: 4%;
+  font-weight: 500;
 }
 
 .favoris h2 {
@@ -555,7 +564,7 @@ body.dark {
 
 .dark h2:after {
   border-bottom: 5px solid rgb(152, 166, 173);
-}
+ }
 
 .dark #puzzle {
   background-color: #faefd1bd;

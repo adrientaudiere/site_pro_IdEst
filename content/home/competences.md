@@ -26,24 +26,25 @@ weight = 7
 
 - Maîtrise de [R](https://cran.r-project.org/), Inkscape, Linux, Latex, et différents logiciels de métagénomique
 - Bonne connaissance en html5, css3
-- Base en python, git & bash 
+- Bases en python, git & bash 
 - Création et maintien du package R ***cati*** <a itemprop="sameAs" href="https://adrientaudiere.com/doc/pdfs/Taudiere2016.pdf" download>   <i class="fas fa-file-pdf icon"></i> </a>  <a itemprop="sameAs" href="https://github.com/adrientaudiere/" rel="external">   <i class="fab fa-github icon"></i> </a>  <a href="https://cran.rstudio.com/web/packages/cati/index.html"><img style="display: inline;" src="https://cranlogs.r-pkg.org/badges/grand-total/cati?color=yellowgreen" alt="CRAN Total"></a> <a href="https://cran.rstudio.com/web/packages/cati/index.html"><img style="display: inline;" src="https://cranlogs.r-pkg.org/badges/cati?color=orange" alt="CRAN by month"></a>
 
 ## Visualisation
 
 - Maîtrise de [R](https://cran.r-project.org/), [Inkscape](http://inkscape.org/), et de nombreux packages R de visualisation,
 - Bonne connaissance du package R [ggplot2](https://ggplot2.tidyverse.org/) et des packages [htmlwidgets](https://www.htmlwidgets.org/),
+- Bases en Javascript,
 - Plusieurs dizaines de figures dont certaines interactives à mon actif (voir [le porfolio](/portfolio)).
 
 ## Bio-statistiques
 
 - Grande expérience d'utilisation des statistiques en biologie,
 - Expérience d'enseignement des bio-statistiques de la Licence 1 à la Licence 3 à l'<abbr title="Université de Montpellier" lang="fr">UM</abbr>,
-- Bonnes connaissances en analyses uni et multivariées.
+- Bonne connaissance en analyses univariées et multivariées.
 
 ## Analyses de données complexes
 
 - Maîtrise de [R](https://cran.r-project.org/) et de nombreux packages d'analyses,
-- Bonnes connaissances des analyses de réseaux d'interactions,
+- Bonne connaissance des analyses de réseaux d'interactions,
 - Nombreuses expériences d'analyse de données complexes (voir mes [publications](/cv/#publication_inter)),
-- Notion d'intelligence artificielle .
+- Notions d'intelligence artificielle .

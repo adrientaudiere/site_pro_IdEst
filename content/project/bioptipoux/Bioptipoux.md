@@ -10,7 +10,7 @@ summary = "Illustrations scientifiques et conseil en statistiques"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Recherche public", "Illustration", "Bio-statistiques"]
+tags = ["Recherche publique", "Illustration", "Bio-statistiques"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "http://example.org"

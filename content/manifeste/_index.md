@@ -19,7 +19,7 @@ Par exemple, au sein du compromis entre (i) performance des méthodes statistiqu
 
 ## Partage et transparence 
 
-Je propose mes service à un [coût maîtrisé](/offres) en privilégiant la transparence et l'intégrité.
+Je propose mes services à un [coût maîtrisé](/offres) en privilégiant la transparence et l'intégrité.
 
 ### Partage des connaissances et des outils
 

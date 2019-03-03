@@ -197,7 +197,7 @@ Collectif. 2014. Petit guide naturaliste de la faculté de science. *Faculté de
 
 -   **Informatique :**
     -   **Maîtrise** de R, Inkscape, Linux, Latex, HTML et logiciels de métagénomique
-    -   **Notion** de git, bash, python, CSS
+    -   **Notions** de git, bash, python, CSS, Javascript
 
 -   **Relecteur :** [*The New Phytologist*](www.newphytologist.com), [*Journal of Ecology*](http://besjournals.onlinelibrary.wiley.com/hub/journal/10.1111/(ISSN)1365-2745/), [*Acta Oecologica*](http://www.journals.elsevier.com/acta-oecologica/) et [*Fungal Ecology*](http://www.journals.elsevier.com/fungal-ecology/) [![minilogo](images/logoPublons.svg)](https://publons.com/author/1216543/adrien-taudiere#profile).
 
