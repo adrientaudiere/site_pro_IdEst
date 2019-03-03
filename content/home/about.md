@@ -30,6 +30,6 @@ Je suis un expert en analyse de données biologiques et en illustrations scienti
 ## Autres expériences professionnelles :
 
 - Freelance (voir mes [projets en cours](#projects))
-- Création de sites internet (le site de la société [Sémaphore](https://semaphore.fr/acceuil.html) et [ce site](https://adrientaudiere.com))
+- Création de sites internet (le site de la société [Sémaphore](http://semaphore.fr/acceuil.html) et [ce site](https://adrientaudiere.com))
 
 

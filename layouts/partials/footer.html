@@ -35,10 +35,10 @@
     {{ if eq .Site.Params.map 1 }}
       <script async defer src="//maps.googleapis.com/maps/api/js?key={{ .Site.Params.map_api_key }}"></script>
       {{ if ($scr.Get "use_cdn") }}
-      {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.gmaps.url $js.gmaps.version) $js.gmaps.sri | safeHTML }}
+      {{ printf "<script async src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.gmaps.url $js.gmaps.version) $js.gmaps.sri | safeHTML }}
       {{ end }}
     {{ else if and (or (eq .Site.Params.map 2) (eq .Site.Params.map 3)) ($scr.Get "use_cdn") }}
-      {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.leaflet.url $js.leaflet.version) $js.leaflet.sri | safeHTML }}
+      {{ printf "<script async src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.leaflet.url $js.leaflet.version) $js.leaflet.sri | safeHTML }}
     {{ end }}
 
     {{/* Comments JS. */}}

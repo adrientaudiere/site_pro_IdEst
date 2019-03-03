@@ -9,12 +9,12 @@ weight = 9
 : **Co-encadrement de stages** de Master : *Océane Cobelli* (M1 IEGB – Université de Montpellier), *Anne Voyer* (CÉGEP aménagement et environnement forestiers – Université Laval, Québec), *Ananda Christophe* (M1 EcoSystèmeS – Université de Montpellier) & *Corentin Leurent* (M2 Darwin – Université de Montpellier) 
 
 2015 – 2017
-: **Animation d’une journée de formation** [CNRS](http://cnrs.fr/) sur l’analyse de données métagénomiques. 
+: **Animation d’une journée de formation** [CNRS](https://cnrs.fr/) sur l’analyse de données métagénomiques. 
 
 
 
 2013 – 2017
-: **Moniteur** (3 ans) puis <abbr title="Attaché Temporaire d'Enseignement et de Recherche" lang="fr">**ATER**</abbr> (1 an) à l'[Université de Montpellier](http://www.umontpellier.fr/). Participation à 14 <abbr title="Unité d'enseignement" lang="fr">UEs</abbr> --- principalement en **Écologie**, **Statistiques** et **Mycologie** --- pour un total de 296 heures.
+: **Moniteur** (3 ans) puis <abbr title="Attaché Temporaire d'Enseignement et de Recherche" lang="fr">**ATER**</abbr> (1 an) à l'[Université de Montpellier](https://www.umontpellier.fr/). Participation à 14 <abbr title="Unité d'enseignement" lang="fr">UEs</abbr> --- principalement en **Écologie**, **Statistiques** et **Mycologie** --- pour un total de 296 heures.
 
 <details close id="detail_ens">
    <summary>Détails des unités d'enseignements</summary>

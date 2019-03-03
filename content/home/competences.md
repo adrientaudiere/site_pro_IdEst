@@ -31,7 +31,7 @@ weight = 7
 
 ## Visualisation
 
-- Maîtrise de [R](https://cran.r-project.org/), [Inkscape](http://inkscape.org/), et de nombreux packages R de visualisation,
+- Maîtrise de [R](https://cran.r-project.org/), [Inkscape](https://inkscape.org/), et de nombreux packages R de visualisation,
 - Bonne connaissance du package R [ggplot2](https://ggplot2.tidyverse.org/) et des packages [htmlwidgets](https://www.htmlwidgets.org/),
 - Bases en Javascript,
 - Plusieurs dizaines de figures dont certaines interactives à mon actif (voir [le porfolio](/portfolio)).

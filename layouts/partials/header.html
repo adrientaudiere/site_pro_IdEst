@@ -4,9 +4,10 @@
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta http-equiv="X-Frame-Options" content="DENY" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic {{ .Site.Data.academic.version }}">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   {{ .Hugo.Generator }}
 
   {{ $scr := .Scratch }}
@@ -159,15 +160,11 @@
     {{ $og_image = "img/icon-192.png" | absURL }}
     {{ $twitter_card = "summary" }}
   {{ end }}
-  <meta property="twitter:card" content="{{ $twitter_card }}">
-  {{ with .Site.Params.twitter }}
-  <meta property="twitter:site" content="@{{ . }}">
-  <meta property="twitter:creator" content="@{{ . }}">
-  {{ end }}
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
   <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:type" content="website" />
   {{- with $og_image }}<meta property="og:image" content="{{ . }}">{{end}}
   <meta property="og:locale" content="{{ .Site.LanguageCode | default "en-us" }}">
   {{ if .IsPage }}
