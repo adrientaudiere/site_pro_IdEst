@@ -3,7 +3,7 @@ title = "Éthique de travail"
 widget_compo = "TRUE" # When widget_compo = true : add to the card in homepage
 active = false #  When active = false only use the widget_compo. If true add **also** a presentation section using default layout.
 
-link_url = "xxx"
+link_url = "/manifeste"
 img_url = "/img/circles/signe_circle.webp"
 img_link = "/img/mini/ext-link-orange.svg"
 

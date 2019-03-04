@@ -3,8 +3,9 @@ title = "Manifeste"
 type = "manifeste"
 +++
 
-Mon éthique de travail se fonde sur deux aspects principaux : la [sobriété](#sobriété) et le [partage](partage-et-transparence).
- 
+Mon éthique de travail se fonde sur deux aspects principaux : la [sobriété](#sobriété) et le [partage](partage-et-transparence). Je me conçois comme un 
+[<abbr Title="TLFi : « Personne exerçant, pour son propre compte, un art mécanique ou un métier manuel qui exige une certaine qualification professionnelle. »"> artisan</abbr>](http://www.cnrtl.fr/definition/artisan) au sens où j'assure personnellement tous les stades de ma production (depuis le dialogue avec le client jusqu'à la commercialisation). Je revendique également une activité artisanale en raison de son caractère esthétique et du soin que j'apporte à mes réalisations.
+
 
 ## Sobriété
 
