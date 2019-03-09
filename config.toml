@@ -483,7 +483,6 @@ enableGitInfo = false
   weight = 5
 
 
-
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[menu.main]]
@@ -497,14 +496,14 @@ enableGitInfo = false
   #   0: No search engine
   #   1: Built-in (Fuse)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 2
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
   [params.search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
+    app_id = "9TOTBF3LCP"
+    api_key = "19b80007d0b8e2ab085f0debd51643be"
+    index_name = "siteIdest"
     show_logo = false
 
 # Taxonomies.

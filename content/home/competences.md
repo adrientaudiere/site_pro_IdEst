@@ -18,7 +18,7 @@ weight = 7
     <area shape="rect" coords="150,0,630,180" title="Bio-informatique" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-1.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#bio-informatique">
     <area shape="rect" coords="0,150,180,630" title="Visualisation" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-2.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#visualisation">
     <area shape="rect" coords="150,580,630,800" title="Analyse" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-4.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#analyses-de-données-complexes">
-    <area shape="rect" coords="630,150,850,630" title="Bio-statistiques" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-3.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#biostatistiques">
+    <area shape="rect" coords="630,150,850,630" title="Bio-statistiques" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-3.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#bio-statistiques">
 </map>
 
 

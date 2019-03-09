@@ -42,7 +42,7 @@ weight = 9
 | &#124;  | HMBE108 | CM + TD Diversité et biogéographie des écosystèmes | D. McKey    | M1     | 21,5  |
 | &#124;  | HLBE101 | CM + TD Biologie Intégrative                       | J-H. Lignot | L1     | 16,5  |
 | &#124;  | HMBE3A2 | TD analyse article interactions plantes/animaux    | R. Manlay   | M1     | 12    |
-| &#124;  | HMBS123 | TD Biostatistique                                  | J. Claude   | M1     | 10    |
+| &#124;  | HMBS123 | TD Bio-statistique                                  | J. Claude   | M1     | 10    |
 | Total     |         |                                                    |             |        | **296,5** |
 
 

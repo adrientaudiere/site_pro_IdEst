@@ -48,11 +48,20 @@ _____________________________________________________________________
 * [Site de la CNIL](https://www.cnil.fr/fr)
 * [Espace de coworking à Montpeyroux](https://www.leplanb-montpeyroux.org/)
 
+* [Biolinéaires](http://www.biolineaires.com)
+* [Ariac-34](http://ariac-34.com/)
+
 ### Site internet 
 * [Info obligatoire sur un site pro](https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228)
 * [Affiner les mots clés de mon site pro](https://neilpatel.com/fr/ubersuggest/)
 * [Font quicksand](https://fonts.google.com/specimen/Quicksand)
 * [Ouvaton: coopérative d'hébergement et boîte mail ](https://ouvaton.coop/)
+
+#### Test du site
+* [Site checker SEO report](https://sitechecker.pro/fr/seo-report/https://adrientaudiere.com)
+* [Dareboost](https://www.dareboost.com/fr/report/d_5c7fc057e9679071e76205e2)
+* [GTmetrix](https://gtmetrix.com/analyze.html)
+* [webhint](https://webhint.io)
 
 ### Auto-entreprenariat
 * [coworkees](https://www.coworkees.com/)
@@ -405,15 +414,17 @@ _____________________________________________________________________
 * [Belles cheatsheets](https://devhints.io/)
 
 * [Observable : interactive notebooks for data analysis, visualization, and exploration.](https://beta.observablehq.com/)
-
+* [CryptPad](https://sandbox.cryptpad.info)
 * [idyll : markdown language for creating data-driven stories and explorable explanations](https://idyll-lang.org/)
 
 ### Bonnes pratiques de codes
 * [A few steps toward cleaner, better-organized code](http://ciddgsa.com/2015/04/11/a-few-steps-toward-better-cleaner-more-organized-code/)
 * [free-programming-books.fr](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-fr.md#logiciels-libres)
 
-### DEEP LEARNING
+### DEEP LEARNING (AI)
 * [tensorflow](https://www.tensorflow.org/)
+* [L’interprétabilité de l’IA – Le nouveau défi des data scientists](https://www.actuia.com/contribution/jean-cupe/linterpretabilite-de-lia-le-nouveau-defi-des-data-scientists/)
+* [Why interpretability is so important in machine learning ?](http://www.lumenai.fr/blog/interpretability-models)
 
 ### Linux
 * [synchroniser des dossiers avec unison | Linux et Geekeries](http://geekeries.de-labrusse.fr/?p=402)
@@ -444,6 +455,8 @@ _____________________________________________________________________
 * [Draw.io : diagramme en ligne](https://www.draw.io/)
 * [Création vidéo : kdenlive](https://kdenlive.org/fr/)
 * [Guide des logiciels libres en entreprise par l'entreprise smile](http://www.open-source-guide.com/)
+* [Open collective](https://opencollective.com/)
+* [Switching Social : liste d'alternatives libres](https://switching.social/)
 
 #### Inkscape
 * [50 Tutorials For Creating Vector Graphics Using Inskape](http://creativenerds.co.uk/tutorials/inkscape-tutorials/)
@@ -594,6 +607,7 @@ _____________________________________________________________________
 * [Cheatsheets - RStudio](http://www.rstudio.com/resources/cheatsheets/)
 * [Keyboard Shortcuts – RStudio Support](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts)
 * [klutometis/roxygen · GitHub](https://github.com/klutometis/roxygen)
+* [R Markdown Book](https://bookdown.org/yihui/rmarkdown/)
 * [R Markdown](http://rmarkdown.rstudio.com/)
 * [bio7 (alt. à Rstudio) |](http://bio7.org/?page_id=14)
 
@@ -706,6 +720,7 @@ _____________________________________________________________________
 
 * [Créer des UML, modélisation en ligne](https://dashboard.genmymodel.com/)
 * [Table des graphiques possibles](https://visual.ly/community/infographic/how/graphic-continuum?utm_source=visually_embed)
+* [Kumu](https://kumu.io/)
 
 #### Ex. de datavisualisation
 
@@ -769,6 +784,11 @@ _____________________________________________________________________
 * [codeply pour jouer avec le html - css - js](https://www.codeply.com/go)
 * [Analyse de la vitesse d'ouverture d'un site](https://gtmetrix.com/)
 
+
+#### Internet
+
+* [La brique internet Iloth](https://iloth.net/brique-internet/)
+
 #### Bootsrap 4
 * [Bootstrap · The world's most popular mobile-first and responsive front-end framework.](http://getbootstrap.com/)
 * [Bootswatch: Free themes for Bootstrap](http://bootswatch.com/)
@@ -797,13 +817,26 @@ _____________________________________________________________________
 * [CSS Tufte](https://edwardtufte.github.io/tufte-css/)
 * [Outils d'aide à la création de flexbox](http://the-echoplex.net/flexyboxes/)
 * [Editeur pour theme bootstrap](https://pikock.github.io/bootstrap-magic/app/index.html#!/editor)
-
+* [Sass](https://sass-lang.com/guide)
+* [Pure CSS](https://purecss.io/)
 
 #### Hégergement
 * [Espace client o2switch](https://clients.o2switch.fr/client.php?lien=create&action=3)
 * [Maîtriser FileZilla en 5 minutes - Sites Web - Framasoft](http://www.framasoft.net/article1941.html)
 * [Tice 74 - Site des ressources pédagogiques TICE - Faire un transfert de fichier par FTP : FileZilla Portable](http://www.ac-grenoble.fr/tice74/spip.php?article262)
 * [A Guide to Creating and Hosting a Personal Website on GitHub](http://jmcglone.com/guides/github-pages/)
+* [Hébergement Nextcloud Hetzner](https://www.hetzner.com/storage/nextcloud)
+
+##### VPS
+* [Ionos VPS](https://www.ionos.fr/serveurs/vps)
+
+#### Jamstack
+
+* [The new dynamic](https://www.thenewdynamic.org/)
+* [Jamstack.org](https://jamstack.org/)
+* [WTF Jamstack](https://jamstack.wtf/)
+* 
+
 
 #### Exemple de supers sites
 
@@ -1241,7 +1274,7 @@ http://elogedelacuriosite.com/2016/12/30/20-marques-de-mode-ethique/
 * [GibertJoseph.com Achetez en ligne vos livres, DVD, disques et cadeaux](http://www.gibertjoseph.com/)
 * [Glénat, éditeur de bandes dessinées, manga, livres et presse](http://www.glenat.com/)
 * [Comparateur d'achat de livre y compris occasion](https://www.chasse-aux-livres.fr/)
-
+* [Librairies Indépendantes.com](https://www.librairiesindependantes.com/)
 
 ### Informatique
 * [Pc portable Laptop Service - PC et PC portable de destockage à prix discount](http://www.laptopservice.fr/)

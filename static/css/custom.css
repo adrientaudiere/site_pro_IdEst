@@ -413,22 +413,22 @@ table>tbody>tr:hover>th {
  *  Portfolio
  **************************************************/
 
-.porfolio-container p {
+.portfolio-container p {
   font-size: 80%;
 }
 
-.porfolio-container img {
+.portfolio-container img {
   margin-top: 12px;
   border-radius: 2%;
-
+  vertical-align: center;
 }
 
-.porfolio-container {
+.portfolio-container {
   margin-top: 80px;
   padding: 0%;
 }
 
-.porfolio-container ul {
+.portfolio-container ul {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -437,15 +437,15 @@ table>tbody>tr:hover>th {
   padding: 0%;
 }
 
-.porfolio-container li {
+.portfolio-container li {
   padding: 2px;
 }
 
-.porfolio-container li:before {
+.portfolio-container li:before {
   content: none;
 }
 
-.porfolio-container li:hover {
+.portfolio-container li:hover {
   transform: scale(1.2)
 }
 
@@ -574,7 +574,7 @@ body.dark {
   color: rgb(152, 166, 173);
 }
 
-.dark .porfolio-container .card img {
+.dark .portfolio-container .card img {
   background: rgba(255, 255, 255, 0.514);
 }
 

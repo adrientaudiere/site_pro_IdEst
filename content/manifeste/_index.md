@@ -41,8 +41,3 @@ Je travaille sous Linux<sup id="a4">[4](#f4)</sup> et utilise quasi exclusivemen
 </br>
 <span id="f4"> 4. Principalement avec la distribution Kubuntu.</span> <a href="#a4">[↩]</a>
 </p>
-
-
-
-<!-- Mon objectif est de m'inspirer de ce qui existe déjà<sup id="axxxx">[xxxx](#fxxx)</sup> tout en inventant d'autres façons de travailler. -->
-<!-- <span  id="fxxx"> 1. Pour ne pas réinventer la roue...</span> <a href="#axxxxx">[↩]</a> -->
