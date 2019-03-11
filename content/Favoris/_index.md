@@ -1,15 +1,7 @@
 +++
-## Custom widget.
-## An example of using the custom widget to create your own homepage section.
-## To create more sections, duplicate this file and edit the values below as desired.
 toc = true # Show table of contents? true/false 
 type = "favoris"
 active = true
-
-  
-## Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-## title = "Custom Section"
-## subtitle = ""
 
 math = true
 +++
@@ -457,7 +449,8 @@ _____________________________________________________________________
 * [Guide des logiciels libres en entreprise par l'entreprise smile](http://www.open-source-guide.com/)
 * [Open collective](https://opencollective.com/)
 * [Switching Social : liste d'alternatives libres](https://switching.social/)
-
+* [Antivirus linux](https://www.clamav.net/)
+  
 #### Inkscape
 * [50 Tutorials For Creating Vector Graphics Using Inskape](http://creativenerds.co.uk/tutorials/inkscape-tutorials/)
 * [a Quick Guide to Inkscape](http://www.microugly.com/inkscape-quickguide/#finish-path)
