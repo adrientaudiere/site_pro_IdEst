@@ -72,7 +72,6 @@ img[alt=minilogo] {
 }
 
 
-
 .container-fluid li:before {
   content: "\f105";
   font-family: "Font Awesome 5 Free";
@@ -229,6 +228,20 @@ h4{
 
 .mini img:hover {
   width: 25px;
+}
+
+/*************************************************
+ *  Outils customization
+ **************************************************/
+
+.outils ul {
+  padding: 10px 0 0 20px;
+}
+.outils li:before {
+  content: "-";
+  color: #2e7891;
+  margin-right: 7px;
+  font-weight: 900;
 }
 
 
@@ -606,4 +619,9 @@ body.dark {
 
 .dark img[alt=minilogo] {
   color: #faefd1;
+}
+
+.dark mark {
+  background-color: #faefd180 !important;
+  padding: 0%;
 }

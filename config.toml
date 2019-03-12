@@ -124,10 +124,10 @@ enableGitInfo = false
   time_format = "15:04"
 
   # Show estimated reading time for posts?
-  reading_time = true
+  reading_time = false
 
   # Display comment count? Requires commenting to be enabled.
-  comment_count = true
+  comment_count = false
 
   # Display next/previous section pager?
   section_pager = false
@@ -193,7 +193,7 @@ enableGitInfo = false
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 
   plugins_css = ["custom"]
-  plugins_js  = ["custom.js"]
+  plugins_js  = ["custom"]
 
 
   # Publication types.

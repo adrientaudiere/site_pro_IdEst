@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<article class="container">
+
+  {{ partial "page_header.html" . }}
+    <div class="outils" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+</article>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
