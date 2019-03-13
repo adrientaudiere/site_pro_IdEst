@@ -1,26 +1,17 @@
 +++
 # Feature/Skill widget.
-widget = "accomplishments"  # Do not modify this line!
-
-# Activate this widget? true/false
-active = true
-
+widget = "short_title"  # Do not modify this line!
 title = "Compétences"
-subtitle = ""
-
-# Order that this section will appear in.
-weight = 7
-
+weight = 3
 +++
 
-<img id="puzzle" usemap="#mamap" src="/img/puzzle/puzzle_profil_cliquable.webp" alt="Image puzzle" name="mamap" />
+<!-- <img id="puzzle" usemap="#mamap" src="/img/puzzle/puzzle_profil_cliquable.webp" alt="Image puzzle" name="mamap" />
 <map name="mamap">
     <area shape="rect" coords="150,0,630,180" title="Bio-informatique" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-1.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#bio-informatique">
     <area shape="rect" coords="0,150,180,630" title="Visualisation" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-2.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#visualisation">
     <area shape="rect" coords="150,580,630,800" title="Analyse" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-4.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#analyses-de-données-complexes">
     <area shape="rect" coords="630,150,850,630" title="Bio-statistiques" onMouseOver= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable-3.webp';" onMouseOut= "document.getElementById('puzzle').src ='/img/puzzle/puzzle_profil_cliquable.webp';" href="#bio-statistiques">
-</map>
-
+</map>  -->
 
 ## Bio-informatique
 

@@ -17,5 +17,5 @@ weight = 8
 ## Tarifs
 
 * N'hésiter pas à me [contacter](/#contact) pour en savoir plus,
-* Remises pour les association à but non lucratif : 20 %,
+* Remises pour les association : 20 %,
 * Remises pour les organismes de recherche publique : 10 %.

@@ -56,7 +56,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Adrien Taudière"
-  role = "Freelance"
+  role = "Data Scientist et infographiste"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -362,13 +362,6 @@ enableGitInfo = false
   weight = 11
 
 [[menu.main]]
-  name = "Compétences"
-  parent = "Accueil"
-  identifier = "competences"
-  url = "#competences"
-  weight = 30
-
-[[menu.main]]
   name = "Projets en cours"
   parent = "Accueil"
   identifier = "Projets en cours"
@@ -406,25 +399,32 @@ enableGitInfo = false
   weight = 2
 
 [[menu.main]]
+  name = "Compétences"
+  parent = "CV"
+  identifier = "Competences"
+  url = "/cv/#competences"
+  weight = 3
+
+[[menu.main]]
   name = "Engagements collectifs"
   parent = "CV"
   identifier = "Engagements"
   url = "/cv/#engagements"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Enseignement"
   parent = "CV"
   identifier = "Enseignement"
   url = "/cv/#enseignement"
-  weight = 4
+  weight = 5
 
 [[menu.main]]
   name = "Communications orales"
   parent = "CV"
   identifier = "communications"
   url = "/cv/#communications"
-  weight = 5
+  weight = 6
 
 
 [[menu.main]]
@@ -432,14 +432,14 @@ enableGitInfo = false
   parent = "CV"
   identifier = "Publication_nat"
   url = "/cv/#publication_nat"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = "Publications internationales"
   parent = "CV"
   identifier = "Publication_inter"
   url = "/cv/#publication_inter"
-  weight = 7
+  weight = 8
 
 # OFFRES
 [[menu.main]]

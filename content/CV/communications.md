@@ -3,10 +3,6 @@ title = "Communications orales"
 widget = "short_title"
 weight = 90
 +++
-<!-- 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fadrientaudiere.com%2Fdoc%2FMyPubs.bib&theme=simple&folding=1&jsonp=1"></script> 
- -->
-
 <i class="fas fa-globe"></i> Conférence internationale / <i class="far fa-comment"></i> Conférence grand public
 
 ## 2017 

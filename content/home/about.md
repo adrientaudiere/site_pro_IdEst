@@ -5,7 +5,7 @@ widget = "about"
 +++
 # Biographie
 
-Je suis un expert en analyse de données biologiques et en illustrations scientifiques (voir mon <a href="/cv">CV</a>).
+Je suis un expert en analyse de données biologiques et en illustrations scientifiques (voir mon <a href="/cv">CV</a> et mes <a href="/cv/#competences">compétences</a>).
 À travers mon entreprise ***IdEst***, je propose des prestations de service adaptées aux [entreprises](/offres/#entreprises) et aux [chercheurs](/offres/#recherche). 
 
 
@@ -29,7 +29,7 @@ Je suis un expert en analyse de données biologiques et en illustrations scienti
 
 ## Autres expériences professionnelles :
 
-- Freelance (voir mes [projets en cours](#projects))
+- Data Scientist et infographiste freelance (voir mes [projets en cours](#projects))
 - Création de sites internet (le site de la société [Sémaphore](http://semaphore.fr/acceuil.html) et [ce site](https://adrientaudiere.com))
 
 

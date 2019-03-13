@@ -16,5 +16,5 @@ weight = 2
 
 ## Remises
 
-* Association à but non lucratif : 20 %
+* Associations : 20 %
 

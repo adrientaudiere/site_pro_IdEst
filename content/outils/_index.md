@@ -17,10 +17,12 @@ date = "09/03/2019"
 
 ## Logiciels utilisés au quotidien pour le développement informatique
 
-* [Kubuntu](https://kubuntu.org/) : Distribution linux [Ubuntu](https://www.ubuntu.com/) avec une saveur [KDE](https://kde.org/).
-* [Visual studio code](https://code.visualstudio.com/) : Éditeur de code développé par Microsoft mais sous licence libre ([MIT](https://fr.wikipedia.org/wiki/Licence_MIT)).
+* [Firefox](https://www.mozilla.org/fr/) et sa [version pour développeur](https://www.mozilla.org/fr/firefox/developer/): le navigateur web à tout faire.
+* [Kubuntu](https://kubuntu.org/) et [Néon](https://neon.kde.org/) : Distributions linux basées sur [Ubuntu](https://www.ubuntu.com/) avec une saveur [KDE plasma](https://kde.org/).
+* [Visual studio code](https://code.visualstudio.com/) : Éditeur de code, développé par Microsoft, mais sous licence libre ([MIT](https://fr.wikipedia.org/wiki/Licence_MIT)).
 * [Boostnote](https://boostnote.io/) : Éditeur [markdown](https://fr.wikipedia.org/wiki/Markdown) complet.
 * [Stretchly](https://hovancik.net/stretchly/) : Application qui rappelle régulièrement de faire des pauses. Basés sur la technique de gestion du temps [pomodoro](https://fr.wikipedia.org/wiki/Technique_Pomodoro).
+* [Thunderbird]() :
 
 
 ## Logiciels d'utilisation personnelle 
@@ -39,6 +41,6 @@ date = "09/03/2019"
 
 
 <p class="footnote">
-<span  id="f1"> 1. Par ex. j'utilise un écran Eizo, des ordinateurs sous linux assemblés en France et facilement modifiables, et un téléphone sous lineageOS (permet de s'affranchir de google avec un smartphone). </span> <a href="#a1">[↩]</a>
+<span  id="f1"> 1. </span> <a href="#a1">[↩]</a>
 </br>
 </p> -->

@@ -15,9 +15,6 @@ image = ""
 caption = ""
 weight = 4
 +++
-<!-- 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Fadrientaudiere.com%2Fdoc%2FMyPubs.bib&theme=simple&folding=1&jsonp=1"></script> 
- -->
 
 ## 2018 
 

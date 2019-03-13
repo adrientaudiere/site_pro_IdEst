@@ -251,12 +251,33 @@ h4{
 
 .nav-link {
   margin-left: 20px;
+  margin-right: 0%;
 }
 
+a.nav-link {
+ font-weight:900;
+}
+
+a.active{
+  color: #faefd1 !important;
+}
+ 
 .nav-link:hover {
   font-style: oblique;
 }
 
+.navbar button {
+  font-size: 140%;
+  background-color: #2e7891;
+  margin: 0%;
+  padding-left: 0%;
+  color: #003f5f;
+}
+
+
+button.active {
+  color: #faefd1;
+}
 
 .dropdown-item a {
   color: #fff;
@@ -409,11 +430,6 @@ table>tbody>tr:hover>th {
 .hero-lead {
   text-indent: 0%;
   text-align: center;
-}
-
-
-#puzzle {
-  padding: 2%;
 }
 
 #hero_carousel {
@@ -579,9 +595,9 @@ body.dark {
   border-bottom: 5px solid rgb(152, 166, 173);
  }
 
-.dark #puzzle {
+/* .dark #puzzle {
   background-color: #faefd1bd;
-}
+} */
 
 .dark .card h4 a {
   color: rgb(152, 166, 173);

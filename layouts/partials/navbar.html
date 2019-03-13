@@ -33,52 +33,59 @@
 
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
+        <li class="
+          nav-item dropdown">
 
-        <li class="nav-item dropdown">
-          <a href="{{ .URL | relLangURL }}" class="nav-link dropdown-toggle dropdown-toggle-split {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}"
-            data-toggle="dropdown" aria-haspopup="true">
-            {{ .Pre }}
-            <span>{{ .Name | safeHTML }}</span>
-            {{ .Post }}
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            {{ range .Children }}
-            <li class="dropdown-item my-0 py-0 mx-0 px-0">
-              <a href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}>
-                {{ .Pre }}
-                <span>{{ .Name | safeHTML }}</span>
-                {{ .Post }}
-              </a>
-            </li>
-            {{ end }}
-          </ul>
-        </li>
+          <div class="btn-group">
+            <a href="{{ .URL | relLangURL }}" class="nav-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">
+              {{ .Pre }}
+              <span>{{ .Name | safeHTML }}</span>
+              {{ .Post }}
+            </a>
 
-        {{ else }}
+            <button href="{{ .URL | relLangURL }}" class="btn dropdown-toggle {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}"
+              data-toggle="dropdown" aria-haspopup="true">
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              {{ range .Children }}
+              <li class="dropdown-item my-0 py-0 mx-0 px-0">
+                <a href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}>
+                  {{ .Pre }}
+                  <span>{{ .Name | safeHTML }}</span>
+                  {{ .Post }}
+                </a>
+              </li>
+              {{ end }}
+            </ul>
 
-        {{/* Set target for link. */}}
-        {{ $.Scratch.Set "target" "" }}
-        {{ if gt (len .URL) 4 }}
-        {{ if eq "http" (slicestr .URL 0 4) }}
-        {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
-        {{ end }}
-        {{ end }}
+          </div>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}"
-            href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}
-            {{ ($.Scratch.Get "target") | safeHTMLAttr }}>
-            {{ .Pre }}
-            <span>{{ .Name | safeHTML }}</span>
-            {{ .Post }}
-          </a>
-        </li>
+          {{ else }}
 
-        {{ end }}
-        {{ end }}
+          {{/* Set target for link. */}}
+          {{ $.Scratch.Set "target" "" }}
+          {{ if gt (len .URL) 4 }}
+          {{ if eq "http" (slicestr .URL 0 4) }}
+          {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
+          {{ end }}
+          {{ end }}
 
-        {{ if and (not $align_right) (or .IsTranslated .Site.Menus.main_right) }}
+          <li class="nav-item">
+            <a class="nav-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}"
+              href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}
+              {{ ($.Scratch.Get "target") | safeHTMLAttr }}>
+              {{ .Pre }}
+              <span>{{ .Name | safeHTML }}</span>
+              {{ .Post }}
+            </a>
+          </li>
+
+          {{ end }}
+          {{ end }}
+
+          {{ if and (not $align_right) (or .IsTranslated .Site.Menus.main_right) }}
       </ul>
       <ul class="navbar-nav ml-auto">
         {{ end }}
