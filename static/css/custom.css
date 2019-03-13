@@ -1,7 +1,7 @@
 /* Color for links and image's links*/
 a {
   color: #003f5f;
-  /*  #c93312 */
+  text-shadow : 0 0 0 #003f5f60;
 }
 
 a i {
