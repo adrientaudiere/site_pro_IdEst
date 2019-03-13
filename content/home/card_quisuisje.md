@@ -14,7 +14,7 @@ weight_cards = 1
 
 - **Enseignant/chercheur** <span style="font-size: 87%;">(de formation)</span>
 - **Codeur** et **curieux**  <span style="font-size: 87%;">(par passion)</span>
-- <span style="font-size: 95%;">Amateur de voyages, BD et rugby</span>
+- <span style="font-size: 95%;">Amateur de voyages, BD, jeux et rugby</span>
 
 ---
 Voir mon <a href="/cv">CV <i class="fas fa-id-card"></i></a> et <a href="/cv/#competences">mes compétences <i class="fas fa-cogs"></i></a>. 

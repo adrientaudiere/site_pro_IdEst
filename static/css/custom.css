@@ -276,7 +276,7 @@ a.active{
 
 
 button.active {
-  color: #faefd1;
+  color: #faefd1 !important;
 }
 
 .dropdown-item a {

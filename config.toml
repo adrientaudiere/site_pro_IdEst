@@ -521,7 +521,7 @@ enableGitInfo = false
   languageCode = "fr-fr"
   [languages.fr.params]
     name = "Adrien Taudière"
-    role = "Freelance"
+    role = "Data Scientist et infographiste"
 
 # # English
 # [languages.en]
@@ -529,7 +529,7 @@ enableGitInfo = false
 #   title = "IdEst: Adrien Taudière's professional website"
 #   [languages.en.params]
 #     name = "Adrien Taudière"
-#     role = "Freelance"
+#     role = "Data Scientist et infographiste"
 #   [[languages.en.menu.main]]
 #     name = "About"
 #     url = "#about"

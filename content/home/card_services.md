@@ -11,9 +11,9 @@ weight = 1
 weight_cards = 3
 +++
 
-- **Analyse de données**
+- **Analyse de données** et **formations**
 - **Infographies** <span style="font-size: 90%;">(création & amélioration)</span>
-- **Formations** <span style="font-size: 90%;">(logiciels libres, R, …)</span> 
-  
+- Création de **sites internets**
+
 ---
 Plus de détails dans la section <a href="/offres">offres <i class="fas fa-hands-helping"></i></a>. 
