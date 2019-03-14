@@ -641,3 +641,17 @@ body.dark {
   background-color: #faefd180 !important;
   padding: 0%;
 }
+
+
+.dark .navbar button {
+  font-size: 140%;
+  background-color: hsla(231, 15%, 16%, 1);
+  margin: 0%;
+  padding-left: 0%;
+  color: rgb(152, 166, 173);
+}
+
+
+.dark button.active {
+  color: rgb(152, 166, 173) !important;
+}
