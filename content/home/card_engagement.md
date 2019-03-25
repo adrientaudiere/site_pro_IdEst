@@ -18,4 +18,4 @@ weight_cards = 8
 
   
 ---
-Pour en savoir plus lisez mon <a href="/manifeste">manifeste <i class="fas fa-hands"></i></a>.
+Pour en savoir plus lisez mon <a href="/manifeste">manifeste <i class="fa fa-file-text-o"></i></a>

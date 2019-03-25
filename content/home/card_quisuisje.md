@@ -17,4 +17,4 @@ weight_cards = 1
 - <span style="font-size: 95%;">Amateur de voyages, BD, jeux et rugby</span>
 
 ---
-Voir mon <a href="/cv">CV <i class="fas fa-id-card"></i></a> et <a href="/cv/#competences">mes compétences <i class="fas fa-cogs"></i></a>. 
+Voir mon <a href="/cv">CV <i class="fa fa-id-card-o"></i></a> et <a href="/cv/#competences">mes compétences <i class="fa fa-cogs"></i></a>. 

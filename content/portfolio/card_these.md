@@ -9,17 +9,17 @@ weight = 1
 +++
 
 <ul style="position: absolute; top: 0px; left: 0px; margin-right:4px;">
-    <li> <a href="/doc/pdfs/pres_These.pdf" title="Présentation pdf de ma thèse"><i class="far fa-images fa-lg"></i></a> </li>
+    <li> <a href="/doc/pdfs/pres_These.pdf" title="Présentation pdf de ma thèse"><i class="fa fa-file-image-o"></i></a> </li>
 </ul>
 
 
 <ul style="position: absolute; top: 0px; right: 0px; margin-right:4px;">
-    <li> <a href="/doc/pdfs/These_Adrien_Taudiere.pdf" title="PDF de ma thèse"><i class="far fa-file-pdf fa-lg"></i></a> </li>
+    <li> <a href="/doc/pdfs/These_Adrien_Taudiere.pdf" title="PDF de ma thèse"><i class="fa  fa-file-pdf-o"></i></a> </li>
 </ul>
 
 ![These](/img/Illustration/these/these_mini.webp)
 
-### Thèse <i class="fas fa-user-graduate"></i>
+### Thèse <i class="fa fa-graduation-cap"></i>
 
 [Présentation orale](/doc/pdfs/pres_These.pdf) et [manuscrit](/doc/pdfs/These_Adrien_Taudiere.pdf). Pour produire ces deux documents, j'ai utilisé principalement le langage **Latex** avec le logiciel [*Kile*](https://kile.sourceforge.io) ainsi que le format d'image **svg** avec le logiciel [*Inkscape*](http://inkscape.org/).
 

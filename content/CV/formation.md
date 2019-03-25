@@ -6,7 +6,7 @@ weight = 1
 +++
 
 2013 – 2016
-: **Thèse d'Écologie**  [EPHE](https://www.ephe.fr) --- [CEFE](https://www.cefe.cnrs.fr/) : <span class="titre"> Déterminants de la structure des communautés fongiques dans les forêts de Corse : Rôle des perturbations et de la composition forestière. <a href="https://hal.archives-ouvertes.fr/tel-01578827"> <i class="far fa-file-pdf"></i> </a>  </span> <br/>
+: **Thèse d'Écologie**  [EPHE](https://www.ephe.fr) --- [CEFE](https://www.cefe.cnrs.fr/) : <span class="titre"> Déterminants de la structure des communautés fongiques dans les forêts de Corse : Rôle des perturbations et de la composition forestière. <a href="https://hal.archives-ouvertes.fr/tel-01578827"> <i class="fa  fa-file-pdf-o"></i> </a>  </span> <br/>
 *Sous la direction* de [C. Carcaillet](https://www.univ-psl.fr/fr/expert/christopher-carcaillet) et
 de [F. Richard](https://www.cefe.cnrs.fr/fr/recherche/ines/ibt/1058-ec/268-franck-richard).
 

@@ -15,7 +15,7 @@
         {{ if or .Site.Menus.main .IsTranslated }}
         <button type="button" class="navbar-toggler" data-toggle="collapse"
                 data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
-          <span><i class="fas fa-bars"></i></span>
+          <span><i class="fa fa-bars"></i></span>
         </button>
         {{ end }}
   
@@ -105,14 +105,14 @@
   
           {{ if .Site.Params.search.engine }}
           <li class="nav-item">
-            <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+            <a class="nav-link js-search" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
           </li>
           {{ end }}
   
           {{ if .IsTranslated }}
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-              <i class="fas fa-globe" aria-hidden="true"></i>
+              <i class="fa fa-globe" aria-hidden="true"></i>
               <span>{{ index .Site.Data.i18n.languages .Lang }}</span>
             </a>
             <ul class="dropdown-menu">
@@ -129,7 +129,7 @@
   
           {{ if .Site.Params.day_night }}
           <li class="nav-item">
-            <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+            <a class="nav-link js-dark-toggle" href="#"><i class="fa fa-moon" aria-hidden="true"></i></a>
           </li>
           {{ end }}
   

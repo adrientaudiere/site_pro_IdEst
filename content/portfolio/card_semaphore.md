@@ -9,11 +9,11 @@ weight = 2
 +++
 
 <ul style="position: absolute; top: 0px; left: 0px; margin-right:4px;">
-    <li> <a href="http://semaphore.fr/acceuil.html" title="Lien vers le site internet Sémaphore"><i class="fas fa-external-link-alt fa-lg"></i></a> </li>
+    <li> <a href="http://semaphore.fr/acceuil.html" title="Lien vers le site internet Sémaphore"><i class="fa fa-external-link"></i></a> </li>
 </ul>
 
 <ul style="position: absolute; top: 0px; right: 0px; margin-right:4px;">
-    <li> <a href="/img/Illustration/semaphore/Screenshot_mini.webp" title="Agrandir l'image"><i class="fas fa-expand fa-lg"></i></a> </li>
+    <li> <a href="/img/Illustration/semaphore/Screenshot_mini.webp" title="Agrandir l'image"><i class="fa fa-expand "></i></a> </li>
 </ul>
 
 ![Capture écran Sémaphore](/img/Illustration/semaphore/Screenshot_mini.webp)

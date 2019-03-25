@@ -22,8 +22,8 @@ Hugot L, Delbosc P., Panaiotis C., Richard F, **Taudière A**, Tomasi F, Médail
 
 ## 2016
 
-**Taudière A.** 2016. Déterminants de la structure des communautés fongiques dans les forêts de Corse : Rôle des perturbations et de la composition forestière. Rapport de thèse, <a href="https://www.ephe.fr">École Pratique des Hautes Études</a>. <a href="http://www.theses.fr/s108296"><i class="fas fa-external-link-alt"></i> <a href="https://www.researchgate.net/publication/315812691_Determinants_de_la_structure_des_communautes_fongiques_dans_les_forets_de_Corse_Role_des_perturbations_et_de_la_composition_forestiere"><i class="far fa-file-pdf"></i></a>
+**Taudière A.** 2016. Déterminants de la structure des communautés fongiques dans les forêts de Corse : Rôle des perturbations et de la composition forestière. Rapport de thèse, <a href="https://www.ephe.fr">École Pratique des Hautes Études</a>. <a href="http://www.theses.fr/s108296"><i class="fa fa-external-link"></i> <a href="https://www.researchgate.net/publication/315812691_Determinants_de_la_structure_des_communautes_fongiques_dans_les_forets_de_Corse_Role_des_perturbations_et_de_la_composition_forestiere"><i class="fa  fa-file-pdf-o"></i></a>
 
 ## 2014
 
-Collectif. 2014. Petit guide naturaliste de la faculté de science. <em>Faculté des sciences de Montpellier</em>, 118 p. ISBN: 978-2-7466-6112-7. <a href="https://www.researchgate.net/publication/281268109_Petit_guide_naturaliste_de_la_faculte_de_science"><i class="far fa-file-pdf"></i></a>
+Collectif. 2014. Petit guide naturaliste de la faculté de science. <em>Faculté des sciences de Montpellier</em>, 118 p. ISBN: 978-2-7466-6112-7. <a href="https://www.researchgate.net/publication/281268109_Petit_guide_naturaliste_de_la_faculte_de_science"><i class="fa  fa-file-pdf-o"></i></a>

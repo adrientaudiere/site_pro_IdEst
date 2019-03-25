@@ -16,4 +16,4 @@ weight_cards = 3
 - Création de **sites internets**
 
 ---
-Plus de détails dans la section <a href="/offres">offres <i class="fas fa-hands-helping"></i></a>. 
+Plus de détails dans la section <a href="/offres">offres <i class="fa fa-handshake-o"></i></a>

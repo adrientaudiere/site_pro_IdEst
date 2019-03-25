@@ -25,16 +25,22 @@ date = "09/03/2019"
 * [Thunderbird]() :
 
 
-## Logiciels d'utilisation personnelle 
+## Logiciels d'utilisation personnelle
 
-### Musiques, images et vidéos
-
+### Musiques
 * [Amarok](https://amarok.kde.org/fr) : Lecteur de musique de [KDE](https://kde.org/).
 * [Funkwhale](https://funkwhale.audio/) : Un serveur de musique open source. 
-* [vlc](https://www.videolan.org/index.fr.html) : Lecteur vidéo et audio.
+
+### Images & Vidéo
+
 * [Digikam](https://www.digikam.org/) : Logiciel de gestion d'images tès complet.
+* [vlc](https://www.videolan.org/index.fr.html) : Lecteur vidéo et audio.
 
-
+<!-- ### Dessins 
+* [Inkscape](https://inkscape.org/fr/) : Logiciel professionnel de dessin vectoriel.
+* [Gimp](https://www.gimp.org/fr/) : Logiciel professionnel de manipulation d'images matricielles (c.-à-d. de photos).
+* [Krita]() :
+ -->
 
 <!-- 
 <sup id="a1">[1](#f1)</sup>

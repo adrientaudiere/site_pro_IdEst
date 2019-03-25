@@ -30,7 +30,7 @@ Je m'engage à vous fournir tous les scripts et pipelines d'analyses annotés<su
 
 Je travaille sous Linux<sup id="a4">[4](#f4)</sup> et utilise quasi exclusivement des logiciels libres. 
 
-<i class="fas fa-exclamation-circle"></i> Le libre n'étant pas gratuit : je verse 1% de mon chiffre d'affaires en don pour aider au développement des logiciels libres que j'utilise le plus.
+<i class="fa fa-exclamation-circle"></i> Le libre n'étant pas gratuit : je verse 1% de mon chiffre d'affaires en don pour aider au développement des logiciels libres que j'utilise le plus.
 
 <p class="footnote">
 <span  id="f1"> 1. Par ex. j'utilise un écran [Eizo](http://eizo.fr/), des ordinateurs sous linux assemblés en France et facilement modifiables, et un téléphone sous [lineageOS](https://lineageos.org/) (une distribution Android qui permet de s'affranchir de google). </span> <a href="#a1">[↩]</a>
