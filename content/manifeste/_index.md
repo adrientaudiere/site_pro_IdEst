@@ -33,7 +33,7 @@ Je travaille sous Linux<sup id="a4">[4](#f4)</sup> et utilise quasi exclusivemen
 <i class="fa fa-exclamation-circle"></i> Le libre n'étant pas gratuit : je verse 1% de mon chiffre d'affaires en don pour aider au développement des logiciels libres que j'utilise le plus.
 
 <p class="footnote">
-<span  id="f1"> 1. Par ex. j'utilise un écran [Eizo](http://eizo.fr/), des ordinateurs sous linux assemblés en France et facilement modifiables, et un téléphone sous [lineageOS](https://lineageos.org/) (une distribution Android qui permet de s'affranchir de google). </span> <a href="#a1">[↩]</a>
+<span  id="f1"> 1. Par ex. j'utilise un écran <a href="https://eizo.fr/">Eizo</a>, des ordinateurs sous linux assemblés en France et facilement modifiables, et un téléphone sous <a href="https://lineageos.org/">lineageOS</a> (une distribution Android qui permet de s'affranchir de google). </span> <a href="#a1">[↩]</a>
 </br>
 <span id="f2"> 2. Je ne nie pas le besoin de formes complexes d'analyses dans certaines situations (par ex. les techniques de machine learning), mais j'opte ouvertement pour une attitude orientée vers l'interprétabilité des analyses et la compréhension des résultats pour mes clients.</span> <a href="#a2">[↩]</a>
 </br>
